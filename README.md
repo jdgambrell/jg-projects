@@ -5,7 +5,7 @@ My name is Jerry Gambrell, and I am currently a graduate student at Florida Atla
 
 ## About this repository
 This repository is a compilation of embedded systems, robotics, and machine learning projects that have been completed over the past four years for engineering/computer science coursework, or as personal pursuits. It is meant to provide some insight into the various projects which I have undertaken, and the skills and techniques that were used in order to complete them. Projects will be divided into two categories: Those that are university-related (as part of academic coursework or volunteer project), and those completed as personal projects or as an independent contractor.
-</br>
+</br> </br>
 
 
 # List of Projects:
