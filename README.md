@@ -11,7 +11,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 # List of Projects:
 
 ## University-Related:
-- Operant Chamber
+- [Operant Chamber](#first-project-overview)
 - Car Seat
 - Thesis
 - Senior Design Project (ROS)
