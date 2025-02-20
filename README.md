@@ -34,11 +34,11 @@ This project was completed as a volunteer research assistant working directly wi
 </br></br></br></br>
 
 <!-- ![Figure 1-A: Symposium Poster (initial version)](Images/OC_poster_PNG.png)  NOT USED BECAUSE NEED TO CHANGE PIC SIZE AND MUST USE HTML FOR THAT-->
-<img src="Images/OC_poster_PNG.png" alt="Figure 1-A: Symposium Poster (initial version)" width="900" height="550">
+<img src="Images/Operant Chamber/OC_poster_PNG.png" alt="Figure 1-A: Symposium Poster (initial version)" width="900" height="550">
 </br> </br>
-<img src="Images/OC_version1_inside.jpg" alt="Multi-Unit Interface(current version)" width="400" height="350">
+<img src="Images/Operant Chamber/OC_version1_inside.jpg" alt="Multi-Unit Interface(current version)" width="400" height="350">
 </br> </br>
-<img src="Images/multi_unit_gui.png" alt="Figure 1-A: Symposium Poster (initial version)" width="800" height="500">
+<img src="Images/Operant Chamber/multi_unit_gui.png" alt="Figure 1-A: Symposium Poster (initial version)" width="800" height="500">
 
 <!-- ![Figure 1-B: Initial Version (inside view)](Images/OC_version1_inside.jpg) -->
 <!-- ![Multi-Unit Interface(current version)](Images/example.png)   -->
