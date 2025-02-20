@@ -30,11 +30,11 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 ## Operant Conditioning System To Test Auditory Perception of Songbirds
 ### Description:
 </br>
-This project was completed as a volunteer research assistant working directly with the Biology Department at FAU. The purpose of the project was to improve the efficiency of research by designing a custom, semi-autonomous operant conditioning system capable of presenting auditory stimuli to subjects (songbirds), while sensing and logging subject’s resulting behavior (frequency and duration of perching).  This model improves upon other versions that use infrared sensors and trigger switches attached to perches to capture behavioral data, by using an innovative sensing technique for capturing data based on capacitive touch, which is more accurate and avoids many of the pitfalls associated with using other methods.  A “tutoring mode” was also added for subject training with non-contingent stimuli. Initially developed as a single-unit prototype (Figure 1-A), the current version utilizes a single laptop as a hub for interfacing with up to 10 units simultaneously (Figure 1-B). The system was presented and demonstrated at the university's annual research symposium, and is currently undergoing testing of functionality and reliability with songbirds.
+This project was completed as a volunteer research assistant working directly with the Biology Department at FAU. The purpose of the project was to improve the efficiency of research by designing a custom, semi-autonomous operant conditioning system capable of presenting auditory stimuli to subjects (songbirds), while sensing and logging subject’s resulting behavior (frequency and duration of perching).  This model improves upon other versions that use infrared sensors and trigger switches attached to perches to capture behavioral data, by using an innovative sensing technique for capturing data based on capacitive touch, which is more accurate and avoids many of the pitfalls associated with using other methods.  A “tutoring mode” was also added for subject training with non-contingent stimuli. Initially developed as a single-unit prototype (as seen on poster in Figure 1-A and 1-B), the current version utilizes a single laptop as a hub for interfacing with up to 10 units simultaneously (Figure 1-C). The system was presented and demonstrated at the university's annual research symposium, and is currently undergoing testing of functionality and reliability with songbirds.
 
-![Figure 1-A: Initial Single-Unit Model](images/example.png)
-![Figure 1-B: Current Multi-Use Model Interface](images/example.png)
-![Research Symposium Poster](images/example.png)
+![Figure 1-A: Symposium Poster (initial version)](images/Symposium_Poster_v2_Operant Chamber_Jerry_Gambrell_Spring2024.pdf)
+![Figure 1-B: Initial Version (inside view)](images/OC_version1_inside.png)
+![Multi-Unit Interface(current version)](images/example.png)
 
 ### Hardware:
 ### Software:
