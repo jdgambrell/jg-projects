@@ -29,6 +29,9 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 
 ## Operant Conditioning System To Test Auditory Perception of Songbirds
 ### Description:
-### Method???:
-### Results???:
+</br>
+This project was completed as a volunteer research assistant working directly with the Biology Department at FAU. The purpose of the project was to improve the efficiency of research by designing a custom, semi-autonomous operant conditioning system capable of presenting auditory stimuli to subjects (songbirds), while sensing and logging subject’s resulting behavior (frequency and duration of perching).  This model improves upon other versions that use infrared sensors and trigger switches attached to perches to capture behavioral data, by using an innovative sensing technique for capturing data based on capacitive touch, which is more accurate and avoids many of the pitfalls associated with using other methods.  A “tutoring mode” was also added for subject training with non-contingent stimuli. Initially developed as a single-unit prototype (Figure 1-A), the current version utilizes a single laptop as a hub for interfacing with up to 10 units simultaneously (Figure 1-B). The system is currently undergoing testing of functionality and reliability with songbirds.  
+### Hardware:
+### Software:
+### Relevant Skills/Methods:
 
