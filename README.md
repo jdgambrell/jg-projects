@@ -20,7 +20,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 ## Personal Projects:
 - Consumer Product (toy)
 - Johnny 2 and Johnny 1
-- Halloween Project
+- [Automated Halloween Candy Bowl](#Automated-Halloween-Candy-Bowl)
 - Automatic Gardening Waterer
 </br>
 
@@ -31,6 +31,28 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 ### Description:
 </br>
 This project was completed as a volunteer research assistant working directly with the Biology Department at FAU. The purpose of the project was to improve the efficiency of research by designing a custom, semi-autonomous operant conditioning system capable of presenting auditory stimuli to subjects (songbirds), while sensing and logging subject’s resulting behavior (frequency and duration of perching).  This model improves upon other versions that use infrared sensors and trigger switches attached to perches to capture behavioral data, by using an innovative sensing technique for capturing data based on capacitive touch, which is more accurate and avoids many of the pitfalls associated with using other methods.  A “tutoring mode” was also added for subject training with non-contingent stimuli. Initially developed as a single-unit prototype (as seen on poster in Figure 1-A and 1-B), the current version utilizes a single laptop as a hub for interfacing with up to 10 units simultaneously (Figure 1-C). The system was presented and demonstrated at the university's annual research symposium, and is currently undergoing testing of functionality and reliability with songbirds.
+</br></br></br></br>
+
+<!-- ![Figure 1-A: Symposium Poster (initial version)](Images/OC_poster_PNG.png)  NOT USED BECAUSE NEED TO CHANGE PIC SIZE AND MUST USE HTML FOR THAT-->
+<img src="Images/OC_poster_PNG.png" alt="Figure 1-A: Symposium Poster (initial version)" width="900" height="550">
+</br> </br>
+<img src="Images/OC_version1_inside.jpg" alt="Multi-Unit Interface(current version)" width="400" height="350">
+</br> </br>
+<img src="Images/multi_unit_gui.png" alt="Figure 1-A: Symposium Poster (initial version)" width="800" height="500">
+
+<!-- ![Figure 1-B: Initial Version (inside view)](Images/OC_version1_inside.jpg) -->
+<!-- ![Multi-Unit Interface(current version)](Images/example.png)   -->
+
+### Hardware:
+### Software:
+### Relevant Skills/Methods:
+
+
+
+## Automated Halloween Candy Bowl
+### Description:
+</br>
+This project was conceptualized by my elementary school-aged daughter, with the aim of implementing a halloween candy bowl that could be left out for trick-or-treaters with the ability to limit the amount of candy that was taken at once. Due to the imprecision of basic force sensors, a load cell scale with 3-D printed structure was used to track the weight of the candy in order to track the quantty and dtetect if one, or more than one, candy had been removed at one time. To discourage trick-or-treaters from taking more than one piece of candy at a time, a speaker with a message chastizing their gluttony and threatening them with electrocution via "electric spider", and a use of a ??MHz transmitter to transmit a message to a digital switch controlling the lights on a large spider web (replete with large fake spider), causing them to blink on and off rapidly.
 </br></br></br></br>
 
 <!-- ![Figure 1-A: Symposium Poster (initial version)](Images/OC_poster_PNG.png)  NOT USED BECAUSE NEED TO CHANGE PIC SIZE AND MUST USE HTML FOR THAT-->
