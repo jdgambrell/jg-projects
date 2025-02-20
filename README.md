@@ -11,7 +11,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 # List of Projects:
 
 ## University-Related:
-- [Operant Conditioning System To Test Auditory Perception of Songbirds](#Operant Conditioning System To Test Auditory Perception of Songbirds)
+- [Operant Conditioning System To Test Auditory Perception of Songbirds](# Operant Conditioning System To Test Auditory Perception of Songbirds)
 - Car Seat
 - Thesis
 - Senior Design Project (ROS)
