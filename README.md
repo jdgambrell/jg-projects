@@ -1,7 +1,7 @@
 # jg-projects
 
 ## About me
-My name is Jerry Gambrell, and I am currently a graduate student at Florida Atlantic University in the Master's of Science in Artificial Intelligence program. I recently graduated from FAU with a Bachelor's in Electrical Engineering (December '24), and also hold a advanced degrees and certification in Psychology and humn behavior. Although my primary areas of interest lie in robotics and embedded systems design, I have completed undergraduate and graduate coursework in areas such as Circuit Analysis, Control Systems, Electronics, Sensor Networking and Smart Systems, Logic Design, and Tissue Engineering. In addition, I took a "project-based" approach to my education, volunteering for research projects whenever possible; while also exploring several interesting personal projects related to embedded systems and robotics in my free time. As a result, I also have experience in circuit board design, smd soldering, 3-D printing, and general protoyping of electronic devices. My long-term goal involves eventually combining my knowledge of technology and human behavior to develop products that will enhance the lives of everyday people.
+My name is Jerry Gambrell, and I am currently a graduate student at Florida Atlantic University in the Master's of Science in Artificial Intelligence program. I recently graduated from FAU with a Bachelor's in Electrical Engineering (December '24), and also hold an advanced degree and certification in Psychology and human behavior. Although my primary areas of interest lie in robotics and embedded systems design, I have completed undergraduate and graduate coursework in areas such as Circuit Analysis, Control Systems, Electronics, Sensor Networking and Smart Systems, Logic Design, and Tissue Engineering. In addition, I took a "project-based" approach to my education, volunteering for research projects whenever possible; while also exploring several interesting personal projects related to embedded systems and robotics in my free time. As a result, I also have experience in circuit board design, smd soldering, 3-D printing, and general protoyping of electronic devices. My long-term goal involves eventually combining my knowledge of technology and human behavior to develop products that will enhance the lives of everyday people.
 
 ## About this repository
 This repository is a compilation of embedded systems, robotics, and machine learning projects that have been completed over the past four years for engineering/computer science coursework, or as personal pursuits. It is meant to provide some insight into the various projects which I have undertaken, and the skills and techniques that were used in order to complete them. Projects will be divided into two categories: Those that are university-related (as part of academic coursework or volunteer project), and those completed as personal projects or as an independent contractor.
@@ -11,7 +11,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 # List of Projects:
 
 ## University-Related:
-- [Operant Chamber](#first-project-overview)
+- [Operant Conditioning System To Test Auditory Perception of Songbirds](#first-project-overview)
 - Car Seat
 - Thesis
 - Senior Design Project (ROS)
@@ -27,7 +27,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 
 # Project Overviews:
 
-## First Project Overview???
+## Operant Conditioning System To Test Auditory Perception of Songbirds
 ### Description:
 ### Method???:
 ### Results???:
