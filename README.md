@@ -32,8 +32,9 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 </br>
 This project was completed as a volunteer research assistant working directly with the Biology Department at FAU. The purpose of the project was to improve the efficiency of research by designing a custom, semi-autonomous operant conditioning system capable of presenting auditory stimuli to subjects (songbirds), while sensing and logging subject’s resulting behavior (frequency and duration of perching).  This model improves upon other versions that use infrared sensors and trigger switches attached to perches to capture behavioral data, by using an innovative sensing technique for capturing data based on capacitive touch, which is more accurate and avoids many of the pitfalls associated with using other methods.  A “tutoring mode” was also added for subject training with non-contingent stimuli. Initially developed as a single-unit prototype (as seen on poster in Figure 1-A and 1-B), the current version utilizes a single laptop as a hub for interfacing with up to 10 units simultaneously (Figure 1-C). The system was presented and demonstrated at the university's annual research symposium, and is currently undergoing testing of functionality and reliability with songbirds.
 
-![Figure 1-A: Symposium Poster (initial version)](Images/OC_poster_PNG.png)
-![Figure 1-B: Initial Version (inside view)](Images/OC_version1_inside.png)
+<!-- ![Figure 1-A: Symposium Poster (initial version)](Images/OC_poster_PNG.png)  NOTUSED BECAUSE NEED TO CHANGE PIC SIZE AND MUST USE HTML FOR THAT-->
+<img src="Images/OC_poster_PNG.png" alt="Figure 1-A: Symposium Poster (initial version)" width="500" height="600">
+![Figure 1-B: Initial Version (inside view)](Images/OC_version1_inside.jpg)
 ![Multi-Unit Interface(current version)](Images/example.png)
 
 ### Hardware:
