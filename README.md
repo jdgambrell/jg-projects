@@ -19,7 +19,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 
 ## Personal Projects:
 - Consumer Product (toy)
-- Johnny 2 and Johnny 1
+- [Johnny 2 and Johnny 1 Custom Robotics Platforms](#Johnny-2-and-Johnny-1-Custom-Robotics-Platforms)
 - [Automated Halloween Candy Bowl](#Automated-Halloween-Candy-Bowl)
 - Automatic Gardening Waterer
 </br>
@@ -113,6 +113,29 @@ This design was part of a group project for an undergraduate Embedded Systems De
 ### Software:
 ### Relevant Skills/Methods:
 </br></br>
+
+
+
+## Johnny 2 and Johnny 1 Custom Robotics Platforms
+### Description:
+</br>
+This project was conceptualized by my elementary school-aged daughter, with the aim of implementing a halloween candy bowl that could be left out for trick-or-treaters with the ability to limit the amount of candy that was taken at once. Due to the imprecision of basic force sensors, a load cell scale with 3-D printed structure was used to track the weight of the candy in order to track the quantty and dtetect if one, or more than one, candy had been removed at one time. To discourage trick-or-treaters from taking more than one piece of candy at a time, a speaker with a message chastizing their gluttony and threatening them with electrocution via "electric spider" if the extra candy is not immediately returned to the bowl. If no change to the weight of the candy bowl is detected in the next several seconds audio of an "electric shock" sound is played to wirelss speakers, an a 433 MHz transmitter is used to transmit a message to a digital switch controlling the lights on a large spider web (replete with large fake spider), causing them to blink on and off rapidly.
+</br></br></br>
+
+<!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
+
+<img src="Images/Johnnies/johnny_1_GIF.gif" alt="Johnny 1 Video" width="800" height="550">
+
+</br> </br>
+<img src="Images/Automated_Candy_Bowl/automated_bowl_3.jpg" alt="Halloween Bowl pic 3" width="400" height="350">
+</br> </br>
+<img src="Images/Automated_Candy_Bowl/automated_bowl_4.jpg" alt="Halloween Bowl pic 4" width="400" height="350">
+
+### Hardware:
+### Software:
+### Relevant Skills/Methods:
+</br></br>
+
 
 
 
