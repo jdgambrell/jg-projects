@@ -73,7 +73,7 @@ This model implementation was completed to fulfill requirements for Senior Engin
 
 <!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
 
-<img src="Images/senior_design_project/senior_design_create3_GIF.gif" alt="Create3 GIF" width="800" height="550">
+<img src="Images/senior_design_project/senior_design_create3_GIF.gif" alt="Create3 GIF" width="750" height="400">
 
 </br> </br>
 <img src="Images/senior_design_project/senior_design_husky_basephoto.jpg" alt="Husky Base" width="400" height="350">
