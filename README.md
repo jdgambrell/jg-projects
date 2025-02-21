@@ -46,6 +46,7 @@ This project was completed as a volunteer research assistant working directly wi
 ### Hardware:
 ### Software:
 ### Relevant Skills/Methods:
+</br></br>
 
 
 ## Smart Car Seat
@@ -61,6 +62,7 @@ This design is part of a group project for a graduate Embedded Systems Design co
 ### Hardware:
 ### Software:
 ### Relevant Skills/Methods:
+</br></br>
 
 
 ## Automated Halloween Candy Bowl
@@ -82,4 +84,4 @@ https://github.com/user-attachments/assets/aecadc69-6d58-4a7f-9522-04b8eed776f0
 ### Hardware:
 ### Software:
 ### Relevant Skills/Methods:
-
+</br></br>
