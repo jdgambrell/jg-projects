@@ -56,7 +56,7 @@ This project was conceptualized by my elementary school-aged daughter, with the 
 </br></br></br></br>
 
 <video width="320" height="240" controls>
-  <source src="Images/automated_bowl_video_clipped.mp4" type="video/mp4">
+  <source src="Images/Automated Candy Bowl/automated_bowl_video_clipped.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <!-- <video src="Images/.mp4" alt="Figure 1-A: Symposium Poster (initial version)" width="300" height="550"> -->
