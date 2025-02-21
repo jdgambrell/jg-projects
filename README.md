@@ -73,12 +73,11 @@ This project was conceptualized by my elementary school-aged daughter, with the 
 
 <!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
 
-<!-- Video clipped video that is in image folder of halloween bowl (dragged and dropped) -->
 <!-- ![medical_alert_GIF](https://github.com/user-attachments/assets/ffc746f4-bc03-407b-b418-7ba6b2496172) -->
-<img src="Images/medical_alert_device/medical_alert_GIF.gif" alt="Medical Alert Leg" width="400" height="350">
+<img src="Images/medical_alert_device/medical_alert_GIF.gif" alt="Medical Alert Leg" width="800" height="550">
 
 </br> </br>
-<img src="Images/medical_alert_device/medical_alert_leg.jpg" alt="Medical Alert Leg" width="400" height="350">
+<img src="Images/medical_alert_device/medical_alert_wrist.jpg" alt="Medical Alert Wrist" width="400" height="350">
 </br> </br>
 <img src="Images/medical_alert_device/medical_alert_leg.jpg" alt="Medical Alert Leg" width="400" height="350">
 
