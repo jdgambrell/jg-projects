@@ -14,7 +14,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 - [Operant Conditioning System To Test Auditory Perception of Songbirds](#Operant-Conditioning-System-To-Test-Auditory-Perception-of-Songbirds)
 - [Smart Car Seat](#Smart-Car-Seat)
 - Thesis
-- Senior Design Project (ROS)
+- [Autonomous Substation Inspection Robot Model](#Autonomous-Substation-Inspection-Robot-Model)
 - [Medical Alert Device](#Medical-Alert-Device)
 
 ## Personal Projects:
@@ -63,6 +63,31 @@ This design is part of a group project for a graduate Embedded Systems Design co
 ### Software:
 ### Relevant Skills/Methods:
 </br></br>
+
+
+## Autonomous Substation Inspection Robot Model
+### Description:
+</br>
+This design was part of a group project for an undergraduate Embedded Systems Design course. The project parameters were to design and implemet an effective system to monitor a person’s pulse and body temperature, with both audio (buzzer) and visual (leds) notifications if measurements are outside of a preset range. The system must also monitor body position (standing, sitting, walking), and transmit that data to monitor for viewing. We chose to attach our device to the user's wrist and thigh using elastic bands designed for that purpose.
+</br></br></br>
+
+<!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
+
+<!-- ![medical_alert_GIF](https://github.com/user-attachments/assets/ffc746f4-bc03-407b-b418-7ba6b2496172) -->
+<img src="Images/medical_alert_device/medical_alert_GIF.gif" alt="Medical Alert Leg" width="800" height="550">
+
+</br> </br>
+<img src="Images/medical_alert_device/medical_alert_wrist.jpg" alt="Medical Alert Wrist" width="400" height="350">
+</br> </br>
+<img src="Images/medical_alert_device/medical_alert_leg.jpg" alt="Medical Alert Leg" width="400" height="350">
+</br> </br>
+<img src="Images/medical_alert_device/medical_alert_system_diagram.png" alt="Medical Alert System Diagram" width="500" height="550">
+
+### Hardware:
+### Software:
+### Relevant Skills/Methods:
+</br></br>
+
 
 
 ## Medical Alert Device
