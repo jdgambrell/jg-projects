@@ -68,20 +68,21 @@ This design is part of a group project for a graduate Embedded Systems Design co
 ## Autonomous Substation Inspection Robot Model
 ### Description:
 </br>
-This design was part of a group project for an undergraduate Embedded Systems Design course. The project parameters were to design and implemet an effective system to monitor a person’s pulse and body temperature, with both audio (buzzer) and visual (leds) notifications if measurements are outside of a preset range. The system must also monitor body position (standing, sitting, walking), and transmit that data to monitor for viewing. We chose to attach our device to the user's wrist and thigh using elastic bands designed for that purpose.
+This model implementation was completed to fulfill requirements for Senior Engineering Design I and II coursework. In this group project we sought to implement an autonomous robot model that could map areas of reasonable size, navigate areas of concern, and collect/show positioning and thermal data. The purpose of this was to model a device that could navigate dangerous areas, such as a typical power substation, to provide routine inspections that would identify any areas in need of maintenance, with the goal of preventing costly repairs or eqipment loss in the future. We were provided withh two robot platforms for development. The first was the iRobot Create3 educational platform, and the second was the larger and more robust Clearpath Husky Platform, which are currently being employed in power substations and other dangerous areas. Given that all group members were relatively new to robotics and the ROS software framework, tasks focused on learning how to install and navigate the software, model robot functionality in simulators, and work with the relevant libraries and packages for accessing sensor data, mapping and navigation of the physical robot bases.
 </br></br></br>
 
 <!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
 
-<!-- ![medical_alert_GIF](https://github.com/user-attachments/assets/ffc746f4-bc03-407b-b418-7ba6b2496172) -->
-<img src="Images/medical_alert_device/medical_alert_GIF.gif" alt="Medical Alert Leg" width="800" height="550">
+<img src="Images/senior_design_project/senior_design_create3_GIF.gif" alt="Create3 GIF" width="800" height="550">
 
 </br> </br>
-<img src="Images/medical_alert_device/medical_alert_wrist.jpg" alt="Medical Alert Wrist" width="400" height="350">
+<img src="Images/senior_design_project/senior_design_husky_basephoto.jpg" alt="Husky Base" width="400" height="350">
 </br> </br>
-<img src="Images/medical_alert_device/medical_alert_leg.jpg" alt="Medical Alert Leg" width="400" height="350">
+<img src="Images/senior_design_project/senior_design_husky_gazebo.png" alt="Husky Gazebo" width="400" height="350">
 </br> </br>
-<img src="Images/medical_alert_device/medical_alert_system_diagram.png" alt="Medical Alert System Diagram" width="500" height="550">
+<img src="Images/senior_design_project/senior_design_husky_map.png" alt="Husky Map" width="400" height="350">
+</br> </br>
+<img src="Images/senior_design_project/senior_design_husky_rviz.png" alt="Husky Rviz" width="400" height="350">
 
 ### Hardware:
 ### Software:
