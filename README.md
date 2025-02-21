@@ -15,7 +15,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 - [Smart Car Seat](#Smart-Car-Seat)
 - Thesis
 - Senior Design Project (ROS)
-- Medical Alert Device
+- [Medical Alert Device](Medical-Alert-Device)
 
 ## Personal Projects:
 - Consumer Product (toy)
@@ -63,6 +63,29 @@ This design is part of a group project for a graduate Embedded Systems Design co
 ### Software:
 ### Relevant Skills/Methods:
 </br></br>
+
+
+## Medical Alert Device
+### Description:
+</br>
+This project was conceptualized by my elementary school-aged daughter, with the aim of implementing a halloween candy bowl that could be left out for trick-or-treaters with the ability to limit the amount of candy that was taken at once. Due to the imprecision of basic force sensors, a load cell scale with 3-D printed structure was used to track the weight of the candy in order to track the quantty and dtetect if one, or more than one, candy had been removed at one time. To discourage trick-or-treaters from taking more than one piece of candy at a time, a speaker with a message chastizing their gluttony and threatening them with electrocution via "electric spider" if the extra candy is not immediately retirned to the bowl. If no change to the weight of the candy bowl is detected in the next several seconds audio of an "electric shock" sound is played to wirelss speakers, an a 433 MHz transmitter is used to transmit a message to a digital switch controlling the lights on a large spider web (replete with large fake spider), causing them to blink on and off rapidly.
+</br></br></br>
+
+<!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
+
+<!-- Video clipped video that is in image folder of halloween bowl (dragged and dropped) -->
+![medical_alert_GIF](https://github.com/user-attachments/assets/ffc746f4-bc03-407b-b418-7ba6b2496172)
+
+</br> </br>
+<img src="Images/medical_alert_device/medical_alert_leg.jpg" alt="Medical Alert Leg" width="400" height="350">
+</br> </br>
+<img src="Images/medical_alert_device/medical_alert_leg.jpg" alt="Medical Alert Leg" width="400" height="350">
+
+### Hardware:
+### Software:
+### Relevant Skills/Methods:
+</br></br>
+
 
 
 ## Automated Halloween Candy Bowl
