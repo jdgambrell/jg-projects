@@ -80,6 +80,8 @@ This design was part of a group project for an undergraduate Embedded Systems De
 <img src="Images/medical_alert_device/medical_alert_wrist.jpg" alt="Medical Alert Wrist" width="400" height="350">
 </br> </br>
 <img src="Images/medical_alert_device/medical_alert_leg.jpg" alt="Medical Alert Leg" width="400" height="350">
+</br> </br>
+<img src="Images/medical_alert_device/medical_alert_system_diagram.png" alt="Medical Alert System Diagram" width="400" height="350">
 
 ### Hardware:
 ### Software:
