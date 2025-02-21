@@ -56,10 +56,10 @@ This project was conceptualized by my elementary school-aged daughter, with the 
 </br></br></br></br>
 
 <video width="320" height="240" controls>
-  <source src="Images/Automated Candy Bowl.mp4" type="video/mp4">
+  <source src="Images/automated_bowl_video_clipped.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<!-- <video src="Images/Automated Candy Bowl.mp4" alt="Figure 1-A: Symposium Poster (initial version)" width="300" height="550"> -->
+<!-- <video src="Images/.mp4" alt="Figure 1-A: Symposium Poster (initial version)" width="300" height="550"> -->
 </br> </br>
 <img src="Images/OC_version1_inside.jpg" alt="Multi-Unit Interface(current version)" width="400" height="350">
 </br> </br>
