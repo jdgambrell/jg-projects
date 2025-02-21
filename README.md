@@ -56,12 +56,12 @@ This project was conceptualized by my elementary school-aged daughter, with the 
 </br></br></br></br>
 
 <video width="320" height="240" controls>
-  <source src=https://github.com/user-attachments/assets/aecadc69-6d58-4a7f-9522-04b8eed776f0 type="video/mp4">
+  <source src="Images/Automated_Candy_Bowl/automated_bowl_video_clipped_short.mp4" type="video/mp4" alt="Resized Candy Bowl Video">
   Your browser does not support the video tag.
 </video>
 
 
-https://github.com/user-attachments/assets/aecadc69-6d58-4a7f-9522-04b8eed776f0
+<!-- https://github.com/user-attachments/assets/aecadc69-6d58-4a7f-9522-04b8eed776f0 -->
 
 
 
