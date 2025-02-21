@@ -15,7 +15,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 - [Smart Car Seat](#Smart-Car-Seat)
 - Thesis
 - Senior Design Project (ROS)
-- [Medical Alert Device](Medical-Alert-Device)
+- [Medical Alert Device](#Medical-Alert-Device)
 
 ## Personal Projects:
 - Consumer Product (toy)
