@@ -52,10 +52,10 @@ This project was completed as a volunteer research assistant working directly wi
 ### Description:
 </br>
 This design is part of a group project for a graduate Embedded Systems Design course, and involves designing and implementing a device that can recognize when a child is left alone in a car and will automatically sound an alarm to inform the guardian or bystanders if the temperature inside of the vehicle reaches dangerous levels. We have chosen to expand and enhance the work of Chao Li & Doreen Kobelo (2020), whose study, "Design of a Smart Car Seat to Prevent Heat-Related Deaths of Children Left Alone Inside Cars," forms the basis of our implementation. However, our objective is to improve and build upon their methodology in order to produce a more dependable and effective solution. This project is on-going.
-</br></br></br></br>
+</br></br>
 
 </br> </br>
-<img src="Images/Smart Car Seat/smart_seat_block_diagram.jpg" alt="Smart Car Seat Block Diagram" width="400" height="350">
+<img src="Images/Smart Car Seat/smart_seat_block_diagram.jpg" alt="Smart Car Seat Block Diagram" width="400" height="500">
 </br>
 
 ### Hardware:
