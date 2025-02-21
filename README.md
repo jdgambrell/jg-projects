@@ -57,7 +57,6 @@ This project was conceptualized by my elementary school-aged daughter, with the 
 
 <video width="320" height="240" controls>
   <source src="Images/Automated_Candy_Bowl/automated_bowl_video_clipped_short.mp4" type="video/mp4" alt="Resized Candy Bowl Video">
-  Your browser does not support the video tag.
 </video>
 
 
