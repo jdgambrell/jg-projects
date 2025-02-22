@@ -1,7 +1,8 @@
 # jg-projects
 
 <div style="text-align: right;">
-  [jump to project list](List-of-Projects)
+  
+  [jump to project list](#List-of-Projects)  
 </div>
 
 ## About me
@@ -51,7 +52,7 @@ Arduino IDE, Processing IDE, audio processing software, Google Sheets
 PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, general prototyping
 
 <div style="text-align: right;">
-  [jump to project list](List-of-Projects)
+  [jump to project list](#List-of-Projects)
 </div>
 
 </br></br>
