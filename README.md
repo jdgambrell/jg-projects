@@ -119,17 +119,22 @@ This design was part of a group project for an undergraduate Embedded Systems De
 ## Johnny 2 and Johnny 1 Custom Robotics Platforms
 ### Description:
 </br>
-This project was conceptualized by my elementary school-aged daughter, with the aim of implementing a halloween candy bowl that could be left out for trick-or-treaters with the ability to limit the amount of candy that was taken at once. Due to the imprecision of basic force sensors, a load cell scale with 3-D printed structure was used to track the weight of the candy in order to track the quantty and dtetect if one, or more than one, candy had been removed at one time. To discourage trick-or-treaters from taking more than one piece of candy at a time, a speaker with a message chastizing their gluttony and threatening them with electrocution via "electric spider" if the extra candy is not immediately returned to the bowl. If no change to the weight of the candy bowl is detected in the next several seconds audio of an "electric shock" sound is played to wirelss speakers, an a 433 MHz transmitter is used to transmit a message to a digital switch controlling the lights on a large spider web (replete with large fake spider), causing them to blink on and off rapidly.
+The initial Johnny 1 model robot was assembled earlier in time, and closely followed online and video tutorials for building a robot platform and modeling it using the ROS framework. However, its usage was limited to teleoperation (Xbox remote) using ROS as the motor controller and using Raspberry Pi 4 GPIO to send signals to the motor driver. A Picam and 2D lidar were also used to explore how sensor data is collected and displayed. The Johnny 2 model was a significant upgrade in that it used a microcontroller as a for motor control, communicating with ROS to receive higher-order commands via ros topics. Another improvement was the addition of a depth camera, which allowed for some exploration of computer vision applications such as visual slam techniques. This upgrade was also done under the constraint of only using a single power source, and the inclusion of a touchscreen for viewing output and to add some personality.
 </br></br></br>
 
 <!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
 
+<img src="Images/Johnnies/johnny_2_GIF.gif" alt="Johnny 2 Video" width="800" height="550">
+</br> </br>
+<img src="Images/Johnnies/Johnny_2_pic.jpg" alt="Johnny 2 Pic" width="400" height="350">
+</br> </br>
+<img src="Johnny_2_orbslam_img.png" alt="Johnny 2 Orbslam Image" width="400" height="350">
+</br> </br>
+<img src="Johnny_2_orbslam_map.png" alt="Johnny 2 Orbslam Map" width="400" height="350">
+</br> </br>
 <img src="Images/Johnnies/johnny_1_GIF.gif" alt="Johnny 1 Video" width="800" height="550">
+</br> </br>
 
-</br> </br>
-<img src="Images/Automated_Candy_Bowl/automated_bowl_3.jpg" alt="Halloween Bowl pic 3" width="400" height="350">
-</br> </br>
-<img src="Images/Automated_Candy_Bowl/automated_bowl_4.jpg" alt="Halloween Bowl pic 4" width="400" height="350">
 
 ### Hardware:
 ### Software:
