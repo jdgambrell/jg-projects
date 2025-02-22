@@ -48,9 +48,10 @@ Arduino IDE, Processing IDE, audio processing software, Google Sheets
 ### Relevant Skills/Methods:
 PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, general prototyping
 
+</br>
 [jump to project list](#List-of_Projects)
-
 </br></br>
+
 
 
 ## Smart Car Seat
@@ -69,7 +70,11 @@ ESP32, Useful Person Sensor, force sensor, temperature sensor, HM-10 Bluetooth m
 Arduino IDE, MIT App Inventor
 ### Relevant Skills/Methods:
 General protyping, wireless communication protocol, mobile app creation
+
+</br>
+[jump to project list](#List-of_Projects)
 </br></br>
+
 
 
 ## Masters Thesis: Robotics and AI
@@ -88,8 +93,10 @@ Nao v5
 Python, ROS, ROS-LLM, Naoqi, Choreographe, Habitat-sim, Open-Whisper AI, ChatGPT
 ### Relevant Skills/Methods:
 Large machine learning models, bipedal robotics platforms, path optimization, Embodied AI
-</br></br>
 
+</br>
+[jump to project list](#List-of_Projects)
+</br></br>
 
 
 
@@ -118,6 +125,8 @@ Clearpath Husky robotics platform, iRobot Create3 robotics platform, Raspberry P
 ROS (navigation stack), Python
 ### Relevant Skills/Methods:
 
+</br>
+[jump to project list](#List-of_Projects)
 </br></br>
 
 
@@ -143,6 +152,9 @@ This design was part of a group project for an undergraduate Embedded Systems De
 ### Hardware:
 ### Software:
 ### Relevant Skills/Methods:
+
+</br>
+[jump to project list](#List-of_Projects)
 </br></br>
 
 
@@ -159,6 +171,9 @@ Microcontroller, dc motor, smd components
 Arduino IDE, KiCad, Flashprint
 ### Relevant Skills/Methods:
 PCB design, smd soldering, 3D printing, protoyping, client consultation, BOM
+
+</br>
+[jump to project list](#List-of_Projects)
 </br></br>
 
 
@@ -182,12 +197,13 @@ The initial Johnny 1 model robot was assembled prior to starting coursework in r
 <img src="Images/Johnnies/johnny_1_GIF.gif" alt="Johnny 1 Video" width="750" height="500">
 </br> </br>
 
-
 ### Hardware:
 ### Software:
 ### Relevant Skills/Methods:
-</br></br>
 
+</br>
+[jump to project list](#List-of_Projects)
+</br></br>
 
 
 
@@ -210,6 +226,9 @@ https://github.com/user-attachments/assets/aecadc69-6d58-4a7f-9522-04b8eed776f0
 ### Hardware:
 ### Software:
 ### Relevant Skills/Methods:
+
+</br>
+[jump to project list](#List-of_Projects)
 </br></br>
 
 
@@ -231,4 +250,7 @@ This project was also inspired by my daughter, who loves to garden. It  inside o
 ### Hardware:
 ### Software:
 ### Relevant Skills/Methods:
+
+</br>
+[jump to project list](#List-of_Projects)
 </br></br>
