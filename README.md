@@ -46,7 +46,7 @@ ESP32, USB audio interface, SD card reader, mp3 player component, wireless audio
 ### Software:
 Arduino IDE, Processing IDE, audio processing software, Google Sheets
 ### Relevant Skills/Methods:
-PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, general prototyping
+PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, general prototyping, wireless communication protocol
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -90,9 +90,9 @@ This goal of this thesis project is to apply knowledge obtained through robotics
 ### Hardware:
 Nao v5
 ### Software:
-Python, ROS, ROS-LLM, Naoqi, Choreographe, Habitat-sim, Open-Whisper AI, ChatGPT
+Python, ROS, Linux, ROS-LLM, Naoqi, Choreographe, Habitat-sim, Open-Whisper AI, ChatGPT
 ### Relevant Skills/Methods:
-Large machine learning models, bipedal robotics platforms, path optimization, Embodied AI
+Large machine learning models, bi-pedal robotics platform, path optimization, Embodied AI
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -122,8 +122,9 @@ This model implementation was completed to fulfill requirements for Senior Engin
 ### Hardware:
 Clearpath Husky robotics platform, iRobot Create3 robotics platform, Raspberry Pi 4, lidar sensor
 ### Software:
-ROS (navigation stack), Python
+ROS (navigation stack), Python, Linux
 ### Relevant Skills/Methods:
+ROS, formal engineering design
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -150,8 +151,11 @@ This design was part of a group project for an undergraduate Embedded Systems De
 <img src="Images/medical_alert_device/medical_alert_system_diagram.png" alt="Medical Alert System Diagram" width="500" height="550">
 
 ### Hardware:
+ESP32, pulse sensor, accelerometer, temperature sensor
 ### Software:
+Arduino IDE, Flashprint
 ### Relevant Skills/Methods:
+General prototyping, wireless communication protocol, 3D printing
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -166,11 +170,11 @@ This project was completed for a small private company seeking university studen
 </br></br>
 
 ### Hardware:
-Microcontroller, dc motor, smd components
+Microcontroller, DC motor, SMD components
 ### Software:
 Arduino IDE, KiCad, Flashprint
 ### Relevant Skills/Methods:
-PCB design, smd soldering, 3D printing, protoyping, client consultation, BOM
+PCB design, smd soldering, 3D modeling and printing, protoyping, client consultation, BOM
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -198,8 +202,12 @@ The initial Johnny 1 model robot was assembled prior to starting coursework in r
 </br> </br>
 
 ### Hardware:
+Arduino Nano, Raspberry Pi 4, PiCam, Luxonis Oak-D depth camera, ultrasonic sensor, 2D lidar sensor, LM386 motor driver
 ### Software:
+Arduino IDE, ROS2 Humble, Linux, sensor libraries, Flashprint
 ### Relevant Skills/Methods:
+3D modeling and printing, ROS, Raspberry Pi
+
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -224,8 +232,11 @@ https://github.com/user-attachments/assets/aecadc69-6d58-4a7f-9522-04b8eed776f0
 <img src="Images/Automated_Candy_Bowl/automated_bowl_4.jpg" alt="Halloween Bowl pic 4" width="400" height="350">
 
 ### Hardware:
+ESP32, load cell sensor, MP3 player module, 433MHz transmitter and receiver, wireless audio transmitter, wireless digital switch
 ### Software:
+Arduino IDE
 ### Relevant Skills/Methods:
+3D modeling and printing, general prototyping, RF
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -236,7 +247,7 @@ https://github.com/user-attachments/assets/aecadc69-6d58-4a7f-9522-04b8eed776f0
 ## Smart Gardening System
 ### Description:
 </br>
-This project was also inspired by my daughter, who loves to garden. It  inside of a 3D printed case.
+This project was also inspired by my daughter, who loves to garden. It is a prototype of an automated gardening device that measures the moisture level of one of four potted plants, output this value to an OLED monitor, and provide a small quantity of water to the plant if the moisture level does not meet a preset threshhold. The fully-functioning device also tracks the time that each plant was last watered, and uses an innovative and attractive touch button interface ("Tree of Life") to wake the display and perform some simple functionality. 
 </br></br>
 
 </br>
@@ -248,8 +259,11 @@ This project was also inspired by my daughter, who loves to garden. It  inside o
 </br>
 
 ### Hardware:
+ESP32, capacitive soil moisture sensors, 
 ### Software:
+Arduino IDE
 ### Relevant Skills/Methods:
+3D modeling and printing, PCB design, general prototyping
 </br>
 
 [jump to project list](#List-of-Projects)
