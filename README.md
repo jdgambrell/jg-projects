@@ -1,9 +1,6 @@
 # jg-projects
 
-<div style="text-align: right;">
-  
-  [jump to project list](#List-of-Projects)  
-</div>
+[jump to project list](#List-of_Projects)
 
 ## About me
 My name is Jerry Gambrell, and I am currently a graduate student at Florida Atlantic University in the Master's of Science in Artificial Intelligence program. I recently graduated from FAU with a Bachelor's in Electrical Engineering (December '24), and also hold an advanced degree and certification in Psychology and human behavior. Although my primary areas of interest lie in robotics and embedded systems design, I have completed undergraduate and graduate coursework in areas such as Circuit Analysis, Control Systems, Electronics, Sensor Networking and Smart Systems, Logic Design, and Tissue Engineering. In addition, I took a "project-based" approach to my education, volunteering for research projects whenever possible; while also exploring several interesting personal projects related to embedded systems and robotics in my free time. As a result, I also have experience in circuit board design, smd soldering, 3-D printing, and general protoyping of electronic devices. My long-term goal involves eventually combining my knowledge of technology and human behavior to develop products that will enhance the lives of everyday people.
@@ -51,9 +48,7 @@ Arduino IDE, Processing IDE, audio processing software, Google Sheets
 ### Relevant Skills/Methods:
 PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, general prototyping
 
-<p style="text-align: right;">
-  <a href="#List-of-Projects">jump to project list</a>
-</p>
+[jump to project list](#List-of_Projects)
 
 </br></br>
 
