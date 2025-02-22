@@ -36,7 +36,7 @@ This project was completed as a volunteer research assistant working directly wi
 <!-- ![Figure 1-A: Symposium Poster (initial version)](Images/OC_poster_PNG.png)  NOT USED BECAUSE NEED TO CHANGE PIC SIZE AND MUST USE HTML FOR THAT-->
 <img src="Images/Operant Chamber/OC_poster_PNG.png" alt="Figure 1-A: Symposium Poster (initial version)" width="900" height="650">
 </br> </br>
-<img src="Images/Operant Chamber/OC_video_GIF.gif" alt="OC GUI" width="600" height="500">
+<img src="Images/Operant Chamber/OC_video_GIF.gif" alt="OC GUI" width="450" height="500">
 </br>
 
 ### Hardware:
@@ -166,7 +166,7 @@ The initial Johnny 1 model robot was assembled prior to starting coursework in r
 
 <!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
 
-<img src="Images/Johnnies/johnny_2_GIF.gif" alt="Johnny 2 Video" width="700" height="550">
+<img src="Images/Johnnies/johnny_2_GIF.gif" alt="Johnny 2 Video" width="500" height="550">
 </br> </br>
 <img src="Images/Johnnies/Johnny_2_pic.jpg" alt="Johnny 2 Pic" width="400" height="350">
 </br> </br>
