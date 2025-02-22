@@ -44,8 +44,11 @@ This project was completed as a volunteer research assistant working directly wi
 <!-- ![Multi-Unit Interface(current version)](Images/example.png)   -->
 
 ### Hardware:
+ESP32, USB audio interface, SD card reader, mp3 player component, wireless audio transmitter, capacitive touch sensor
 ### Software:
+Arduino IDE, Processing IDE, audio processing software, Google Sheets
 ### Relevant Skills/Methods:
+PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, general prototyping
 </br></br>
 
 
@@ -60,8 +63,11 @@ This design is part of a group project for a graduate Embedded Systems Design co
 </br>
 
 ### Hardware:
+ESP32, Useful Person Sensor, force sensor, temperature sensor, HM-10 Bluetooth module
 ### Software:
+Arduino IDE, MIT App Inventor
 ### Relevant Skills/Methods:
+General protyping, wireless communication protocol, mobile app creation
 </br></br>
 
 
@@ -76,8 +82,11 @@ This goal of this thesis project is to apply knowledge obtained through robotics
 </br>
 
 ### Hardware:
+Nao v5
 ### Software:
+Python, ROS, ROS-LLM, Naoqi, Choreographe, Habitat-sim, Open-Whisper AI, ChatGPT
 ### Relevant Skills/Methods:
+Large machine learning models, bipedal robotics platforms, path optimization, Embodied AI
 </br></br>
 
 
@@ -103,8 +112,11 @@ This model implementation was completed to fulfill requirements for Senior Engin
 <img src="Images/senior_design_project/senior_design_husky_rviz.png" alt="Husky Rviz" width="400" height="350">
 
 ### Hardware:
+Clearpath Husky robotics platform, iRobot Create3 robotics platform, Raspberry Pi 4, lidar sensor
 ### Software:
+ROS (navigation stack), Python
 ### Relevant Skills/Methods:
+
 </br></br>
 
 
@@ -145,7 +157,7 @@ Microcontroller, dc motor, smd components
 ### Software:
 Arduino IDE, KiCad, Flashprint
 ### Relevant Skills/Methods:
-PCB Design, smd soldering, 3D printing, protoyping, client consultation, BOM
+PCB design, smd soldering, 3D printing, protoyping, client consultation, BOM
 </br></br>
 
 
