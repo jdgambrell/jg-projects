@@ -18,7 +18,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 - [Medical Alert Device](#Medical-Alert-Device)
 
 ## Personal Projects:
-- Consumer Product (toy)
+- [Consumer Product Prototype](#Consumer-Product-Prototype)
 - [Johnny 2 and Johnny 1 Custom Robotics Platforms](#Johnny-2-and-Johnny-1-Custom-Robotics-Platforms)
 - [Automated Halloween Candy Bowl](#Automated-Halloween-Candy-Bowl)
 - Automatic Gardening Waterer
@@ -130,6 +130,22 @@ This design was part of a group project for an undergraduate Embedded Systems De
 ### Hardware:
 ### Software:
 ### Relevant Skills/Methods:
+</br></br>
+
+
+
+## Consumer Product Prototype
+### Description:
+</br>
+This project was completed for a small private company seeking university students to act as independent contractors, designing and implementing prototypes of their consumer product concept. Due to active patents on the product only general information will be shared in this post. The product is divided into two seperate battery-powered components that must communicate wirelessly over short distances. Device speccs require that all devices have the ability to pair seemlessly with each other without hard coding of mac addresses, and only allow one unit to pair with another at one time. The device grants the user control over on-board lights, switches, and motors, but must be able to fit wothin an area no more than 30 cm^2. Consultation with the client was major aspect of this project as frequent communication about design changes and supply needs was essential. At this point in time the protype has been completed per the client's specifications, and the final product delivered.
+</br></br>
+
+### Hardware:
+Microcontroller, dc motor, smd components
+### Software:
+Arduino IDE, KiCad, Flashprint
+### Relevant Skills/Methods:
+PCB Design, smd soldering, 3D printing, protoyping, client consultation, BOM
 </br></br>
 
 
