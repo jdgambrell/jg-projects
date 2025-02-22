@@ -21,7 +21,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 - [Consumer Product Prototype](#Consumer-Product-Prototype)
 - [Johnny 2 and Johnny 1 Custom Robotics Platforms](#Johnny-2-and-Johnny-1-Custom-Robotics-Platforms)
 - [Automated Halloween Candy Bowl](#Automated-Halloween-Candy-Bowl)
-- [Smart Gardening System](Smart-Gardening-System)
+- [Smart Gardening System](#Smart-Gardening-System)
 </br>
 
 
