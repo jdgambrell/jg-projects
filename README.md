@@ -65,7 +65,7 @@ This design is part of a group project for a graduate Embedded Systems Design co
 </br></br>
 
 
-## Masters Thesis Robotics and AI
+## Masters Thesis: Robotics and AI
 ### Description:
 </br>
 This goal of this thesis project is to apply knowledge obtained through robotics coursework and projects, to new concepts being studied related to artificial intelligence and machine learning. Focusing on large-language and visual models specifically, the project should incorporate embodied AI and human-robot interaction in any design. Still in its early stages, work thus far has focused on prompting large language models such as ChatGPT to return a function call for basic robot navigation, becoming familiar with common simulation tools associated with embodied AI such as Habitat-sim, downloading and parsing large visual model datasets, and choosing an appropriate task and robotics platform to use. Early experimentation with the Nao v5 bi-pedal robot, and its well-documented use in HRI applications such as those related to engaging children with disabilities, indicates that the Nao platform may be a good choice for this project if it fulfills the task demands once finalized.
