@@ -21,7 +21,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 - [Consumer Product Prototype](#Consumer-Product-Prototype)
 - [Johnny 2 and Johnny 1 Custom Robotics Platforms](#Johnny-2-and-Johnny-1-Custom-Robotics-Platforms)
 - [Automated Halloween Candy Bowl](#Automated-Halloween-Candy-Bowl)
-- Automatic Gardening Waterer
+- [Smart Gardening System](Smart-Gardening-System)
 </br>
 
 
@@ -137,7 +137,7 @@ This design was part of a group project for an undergraduate Embedded Systems De
 ## Consumer Product Prototype
 ### Description:
 </br>
-This project was completed for a small private company seeking university students to act as independent contractors, designing and implementing prototypes of their consumer product concept. Due to active patents on the product only general information will be shared in this post. The product is divided into two seperate battery-powered components that must communicate wirelessly over short distances. Device speccs require that all devices have the ability to pair seemlessly with each other without hard coding of mac addresses, and only allow one unit to pair with another at one time. The device grants the user control over on-board lights, switches, and motors, but must be able to fit wothin an area no more than 30 cm^2. Consultation with the client was major aspect of this project as frequent communication about design changes and supply needs was essential. At this point in time the protype has been completed per the client's specifications, and the final product delivered.
+This project was completed for a small private company seeking university students to act as independent contractors, designing and implementing prototypes of their consumer product concept. Due to active patents on the device, only general information will be shared in this post. The product is divided into two seperate battery-powered components that must communicate wirelessly over short distances. Device speccs require that all devices have the ability to pair seamlessly with each other without hard coding of mac addresses, and only allow one unit to pair with another at one time. The device grants the user control over on-board lights, switches, and motors, but must be able to fit within an area no more than 30 cm^2. Consultation with the client was a major aspect of this project as frequent communication about design changes and supply needs was essential. At this point in time, the protype has been completed per the client's specifications, and the final product delivered.
 </br></br>
 
 ### Hardware:
@@ -193,6 +193,23 @@ https://github.com/user-attachments/assets/aecadc69-6d58-4a7f-9522-04b8eed776f0
 <img src="Images/Automated_Candy_Bowl/automated_bowl_3.jpg" alt="Halloween Bowl pic 3" width="400" height="350">
 </br> </br>
 <img src="Images/Automated_Candy_Bowl/automated_bowl_4.jpg" alt="Halloween Bowl pic 4" width="400" height="350">
+
+### Hardware:
+### Software:
+### Relevant Skills/Methods:
+</br></br>
+
+
+
+## Smart Gardening System
+### Description:
+</br>
+This project was also inspired by my daughter, who loves to garden. It  inside of a 3D printed case.
+</br></br>
+
+</br>
+<img src="Images/Smart Car Seat/smart_seat_block_diagram.jpg" alt="Smart Car Seat Block Diagram" width="400" height="500">
+</br>
 
 ### Hardware:
 ### Software:
