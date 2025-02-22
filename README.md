@@ -119,20 +119,20 @@ This design was part of a group project for an undergraduate Embedded Systems De
 ## Johnny 2 and Johnny 1 Custom Robotics Platforms
 ### Description:
 </br>
-The initial Johnny 1 model robot was assembled earlier in time, and closely followed online and video tutorials for building a robot platform and modeling it using the ROS framework. However, its usage was limited to teleoperation (Xbox remote) using ROS as the motor controller and using Raspberry Pi 4 GPIO to send signals to the motor driver. A Picam and 2D lidar were also used to explore how sensor data is collected and displayed. The Johnny 2 model was a significant upgrade in that it used a microcontroller as a for motor control, communicating with ROS to receive higher-order commands via ros topics. Another improvement was the addition of a depth camera, which allowed for some exploration of computer vision applications such as visual slam techniques. This upgrade was also done under the constraint of only using a single power source, and the inclusion of a touchscreen for viewing output and to add some personality.
+The initial Johnny 1 model robot was assembled prior to starting coursework in robotics, and closely followed online and video tutorials for building a robot platform and modeling it using the ROS framework. However, its usage was limited to teleoperation (Xbox remote), using ROS as the motor controller and using Raspberry Pi 4 GPIO to send signals to the motor driver. A Picam and 2D lidar were included to explore procedures for collecting and displaying sensor data. The Johnny 2 model was a significant upgrade in that it used a microcontroller for motor control, communicating with ROS to receive higher-order commands via ros topics. Another improvement was the addition of a depth camera, which allowed for some exploration of computer vision applications such as visual slam techniques and object recognition. This upgrade was also done under the constraint of only using a single power source, and the inclusion of a touchscreen for viewing output, and to add some personality.
 </br></br></br>
 
 <!-- ****************** Resizing a video may not be possible in this format, but may be able to resize a gif *********************-->
 
-<img src="Images/Johnnies/johnny_2_GIF.gif" alt="Johnny 2 Video" width="800" height="550">
+<img src="Images/Johnnies/johnny_2_GIF.gif" alt="Johnny 2 Video" width="700" height="550">
 </br> </br>
 <img src="Images/Johnnies/Johnny_2_pic.jpg" alt="Johnny 2 Pic" width="400" height="350">
 </br> </br>
-<img src="Johnny_2_orbslam_img.png" alt="Johnny 2 Orbslam Image" width="400" height="350">
+<img src="Images/Johnnies/Johnny_2_orbslam_img.png" alt="Johnny 2 Orbslam Image" width="400" height="350">
 </br> </br>
-<img src="Johnny_2_orbslam_map.png" alt="Johnny 2 Orbslam Map" width="400" height="350">
+<img src="Images/Johnnies/Johnny_2_orbslam_map.png" alt="Johnny 2 Orbslam Map" width="400" height="350">
 </br> </br>
-<img src="Images/Johnnies/johnny_1_GIF.gif" alt="Johnny 1 Video" width="800" height="550">
+<img src="Images/Johnnies/johnny_1_GIF.gif" alt="Johnny 1 Video" width="750" height="500">
 </br> </br>
 
 
