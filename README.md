@@ -36,12 +36,8 @@ This project was completed as a volunteer research assistant working directly wi
 <!-- ![Figure 1-A: Symposium Poster (initial version)](Images/OC_poster_PNG.png)  NOT USED BECAUSE NEED TO CHANGE PIC SIZE AND MUST USE HTML FOR THAT-->
 <img src="Images/Operant Chamber/OC_poster_PNG.png" alt="Figure 1-A: Symposium Poster (initial version)" width="900" height="650">
 </br> </br>
-<img src="Images/Operant Chamber/OC_version1_inside.jpg" alt="Multi-Unit Interface(current version)" width="350" height="350">
-</br> </br>
-<img src="Images/Operant Chamber/multi_unit_gui.png" alt="Figure 1-A: Symposium Poster (initial version)" width="800" height="500">
-
-<!-- ![Figure 1-B: Initial Version (inside view)](Images/OC_version1_inside.jpg) -->
-<!-- ![Multi-Unit Interface(current version)](Images/example.png)   -->
+<img src="Images/Operant Chamber/OC_video_GIF.gif" alt="OC GUI" width="800" height="500">
+</br>
 
 ### Hardware:
 ESP32, USB audio interface, SD card reader, mp3 player component, wireless audio transmitter, capacitive touch sensor
@@ -220,7 +216,11 @@ This project was also inspired by my daughter, who loves to garden. It  inside o
 </br></br>
 
 </br>
-<img src="Images/Smart Car Seat/smart_seat_block_diagram.jpg" alt="Smart Car Seat Block Diagram" width="400" height="500">
+<img src="Images/automated_gardening_device/auto_waterer_pic_1.jpg" alt="Auto Waterer Pic 1" width="400" height="500">
+</br>
+<img src="Images/automated_gardening_device/auto_waterer_pic_2.jpg" alt="Auto Waterer Pic 2" width="400" height="500">
+</br>
+<img src="Images/automated_gardening_device/auto_waterer_sensor_pic.jpg" alt="Auto Waterer Sensor Pic" width="400" height="500">
 </br>
 
 ### Hardware:
