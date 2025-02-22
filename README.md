@@ -51,9 +51,9 @@ Arduino IDE, Processing IDE, audio processing software, Google Sheets
 ### Relevant Skills/Methods:
 PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, general prototyping
 
-<div style="text-align: right;">
-  [jump to project list](#List-of-Projects)
-</div>
+<p style="text-align: right;">
+  <a href="#List-of-Projects">jump to project list</a>
+</p>
 
 </br></br>
 
