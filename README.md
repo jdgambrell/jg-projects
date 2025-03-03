@@ -46,7 +46,7 @@ ESP32, USB audio interface, SD card reader, MP3 player component, wireless audio
 ### Software:
 Arduino IDE, Processing IDE, audio processing software, Google Sheets
 ### Relevant Skills/Methods:
-PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, general prototyping, wireless communication protocol
+MCU, PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, CAD design, UART, I2C, SPI communication protocols, Bluetooth communication protocol
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -65,11 +65,11 @@ This design is part of a group project for a graduate Embedded Systems Design co
 </br>
 
 ### Hardware:
-ESP32, Useful Person Sensor, force sensor, temperature sensor, HM-10 Bluetooth module
+ESP32, Useful Person Sensor, force sensor, temperature sensor
 ### Software:
 Arduino IDE, MIT App Inventor
 ### Relevant Skills/Methods:
-General protyping, wireless communication protocol, mobile app creation
+MCU, UART, I2C communication protocol, mobile app creation, Bluetooth and WiFi wireless communication protocol
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -92,7 +92,7 @@ Nao v5
 ### Software:
 Python, ROS, Linux, ROS-LLM, Naoqi, Choreographe, Habitat-sim, Open-Whisper AI, ChatGPT
 ### Relevant Skills/Methods:
-Large machine learning models, bipedal robotics platform, path optimization, Embodied AI
+Autonomous navigation, ROS, Large machine learning models, bipedal robotics platform, path optimization, Embodied AI, HRI
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -124,7 +124,7 @@ Clearpath Husky robotics platform, iRobot Create3 robotics platform, Raspberry P
 ### Software:
 ROS2 Humble (navigation stack), Python, Linux
 ### Relevant Skills/Methods:
-ROS, formal engineering design
+Autonomous navigation, ROS, Path optimization, Sensors (LiDar, wheel encoders), SLAM
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -155,7 +155,7 @@ ESP32, pulse sensor, accelerometer, temperature sensor
 ### Software:
 Arduino IDE, Flashprint
 ### Relevant Skills/Methods:
-General prototyping, wireless communication protocol, 3D printing
+MCU, UART and I2C communication protocols, 3d printing, CAD design, WiFi wireless communication protocol
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -174,7 +174,7 @@ Microcontroller, DC motor, SMD components
 ### Software:
 Arduino IDE, KiCad, Flashprint
 ### Relevant Skills/Methods:
-PCB design, SMD soldering, 3D modeling and printing, protoyping, client consultation, BOM
+MCU, PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, CAD design, UART and I2C, communication protocols, WiFi wireless communication protocol, SMD soldering, client consultation, BOM
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -206,7 +206,7 @@ Arduino Nano, Raspberry Pi 4, PiCam, Luxonis Oak-D depth camera, ultrasonic sens
 ### Software:
 Arduino IDE, ROS2 Humble, Linux, sensor libraries, Flashprint
 ### Relevant Skills/Methods:
-3D modeling and printing, ROS, Raspberry Pi
+Autonomous navigation, ROS, Sensors (RGB and depth camera), Visual SLAM, 3D modeling and printing, robot assembly and modeling, Raspberry Pi
 
 </br>
 
@@ -236,7 +236,7 @@ ESP32, load cell sensor, MP3 player module, 433MHz transmitter and receiver, wir
 ### Software:
 Arduino IDE
 ### Relevant Skills/Methods:
-3D modeling and printing, general prototyping, RF
+3D modeling and printing, MCU, CAD design, UART and I2C communication protocols, RF communication protocol
 </br>
 
 [jump to project list](#List-of-Projects)
@@ -263,7 +263,7 @@ ESP32, capacitive soil moisture sensors, water pumps
 ### Software:
 Arduino IDE
 ### Relevant Skills/Methods:
-3D modeling and printing, PCB design, general prototyping
+PCB design, 3D modeling and printing, MCU, CAD design, UART and I2C communication protocols, WiFi communication protocol
 </br>
 
 [jump to project list](#List-of-Projects)
