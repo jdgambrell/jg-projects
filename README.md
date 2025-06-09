@@ -57,7 +57,7 @@ MCU, PCB design, PCB fabrication (LPKF ProtoMat S63), 3D printing, CAD design, U
 ## Smart Car Seat
 ### Description:
 </br>
-This design is part of a group project for a graduate Embedded Systems Design course, and involves designing and implementing a device that can recognize when a child is left alone in a car. It functions to automatically sound an alarm to inform the guardian or bystanders if the temperature inside of the vehicle reaches dangerous levels, while also sending a text message alert to the driver. We have chosen to expand and enhance the work of Chao Li & Doreen Kobelo (2020), whose study, "Design of a Smart Car Seat to Prevent Heat-Related Deaths of Children Left Alone Inside Cars," forms the basis of our implementation. However, our objective is to improve and build upon their methodology in order to produce a more dependable and effective solution. This project is on-going.
+This design was part of a group project for a graduate Embedded Systems Design course, and involved designing and implementing a device that could recognize when a child is left alone in a car. It functioned to automatically sound an alarm to inform the guardian or bystanders if the temperature inside of the vehicle reached dangerous levels, while also sending a text message alert to the driver. We chose to expand and enhance the work of Chao Li & Doreen Kobelo (2020), whose study, "Design of a Smart Car Seat to Prevent Heat-Related Deaths of Children Left Alone Inside Cars," formed the basis of our implementation. However, our objective was to improve and build upon their methodology in order to produce a more dependable and effective solution. This project is complete and research paper submitted to the university.
 </br></br>
 
 </br>
@@ -77,10 +77,10 @@ MCU, UART, I2C communication protocol, mobile app creation, Bluetooth and WiFi w
 
 
 
-## Masters Thesis: Robotics and AI
+## Masters Thesis: Unblocking Robot Navigation in 3D Indoor Spaces with Vision-Language Models
 ### Description:
 </br>
-The goal of this thesis project is to apply knowledge obtained through robotics coursework to new concepts related to artificial intelligence and machine learning. Focusing on large-language and visual models specifically, the project will incorporate embodied AI and human-robot interaction into the design. Still in its early stages, work thus far has focused on prompting large language models such as ChatGPT to return a function call for basic robot navigation, becoming familiar with common simulation tools associated with embodied AI such as Habitat-sim, downloading and parsing large visual model datasets, and choosing an appropriate task and robotics platform to use. Early experimentation with the Nao v5 bipedal robot, and its well-documented use in HRI applications such as those related to engaging children with disabilities, indicates that the Nao platform may be a good choice for this project if it fulfills the task demands once finalized. This project is ongoing.
+This project focuses on building a mobile robot with a manipulator that can navigate complex indoor spaces using both traditional path planning and high-level reasoning. While it follows planned routes, the robot can also handle unexpected challenges—like closed doors or elevators—by using a vision-language model to understand its surroundings and decide what actions to take. With its manipulator, the robot can physically interact with the environment, such as pressing buttons to open doors. Simulation will be used alongside real-world testing to develop and refine the system in a range of environments. The project is ongoing, and is part of a master's thesis in Artificial Intelligence.
 </br></br>
 
 </br>
@@ -90,9 +90,9 @@ The goal of this thesis project is to apply knowledge obtained through robotics 
 ### Hardware:
 Nao v5
 ### Software:
-Python, ROS, Linux, ROS-LLM, Naoqi, Choreographe, Habitat-sim, Open-Whisper AI, ChatGPT
+Python, ROS, Linux, ROS-LLM, AI2THOR, Habitat-sim, Open-Whisper AI, ChatGPT
 ### Relevant Skills/Methods:
-Autonomous navigation, ROS, Large machine learning models, bipedal robotics platform, path optimization, Embodied AI, HRI
+Autonomous navigation, ROS, LLM/LVM, multiple mobile robotics platforms, manipulators, path optimization, Embodied AI, HRI
 </br>
 
 [jump to project list](#List-of-Projects)
