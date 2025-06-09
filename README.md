@@ -85,6 +85,7 @@ This project focuses on building a mobile robot with a manipulator that can navi
 
 </br>
 <img src="Images/masters_thesis/Nao_GIF.gif" alt="Nao Robot Gif" width="400" height="500">
+<img src="Images/masters_thesis/Combined_pic.tif" alt="AI2THOR Maps" width="600" height="400">
 </br>
 
 ### Hardware:
