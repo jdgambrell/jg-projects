@@ -15,7 +15,7 @@ This repository is a compilation of embedded systems, robotics, and machine lear
 ## University-Related:
 - [Operant Conditioning System To Test Auditory Perception of Songbirds](#Operant-Conditioning-System-To-Test-Auditory-Perception-of-Songbirds)
 - [Smart Car Seat](#Smart-Car-Seat)
-- [Master's Thesis: Robotics and AI](#Masters-Thesis-Robotics-and-AI)
+- [Masters Thesis: Unblocking Robot Navigation in 3D Indoor Spaces with Vision-Language Models](#Masters Thesis: Unblocking Robot Navigation in 3D Indoor Spaces with Vision-Language Models)
 - [Autonomous Substation Inspection Robot Model](#Autonomous-Substation-Inspection-Robot-Model)
 - [Medical Alert Device](#Medical-Alert-Device)
 
