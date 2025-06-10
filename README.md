@@ -85,7 +85,7 @@ This project focuses on building a mobile robot with a manipulator that can navi
 
 </br>
 <img src="Images/masters_thesis/Combined_pic.jpg" alt="AI2THOR Maps" width="900" height="400">
-<img src="Images/masters_thesis/double_dingo_image.jpg" alt="Double Dingos" width="500" height="500">
+<img src="Images/masters_thesis/double_dingo_image.jpg" alt="Double Dingos" width="600" height="400">
 </br>
 
 ### Hardware:
