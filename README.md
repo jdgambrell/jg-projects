@@ -8,7 +8,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ## 🔗 Links
 - LinkedIn: https://www.linkedin.com/in/jerry-gambrell/
-- Resume: [ADD YOUR PDF LINK HERE]
+- Resume: [ADD PDF LINK HERE]
 
 ---
 
@@ -62,10 +62,10 @@ Automated system for behavioral research in biological experiments.
 # List of Projects:
 
 ## University-Related:
-- [Operant Conditioning System To Test Auditory Perception of Songbirds](#Operant-Conditioning-System-To-Test-Auditory-Perception-of-Songbirds)
-- [Smart Car Seat](#Smart-Car-Seat)
 - [VLM-Guided Robot Navigation](#Masters-Thesis-Unblocking-Robot-Navigation-in-3D-Indoor-Spaces-with-Vision-Language-Models)
 - [Autonomous Substation Inspection Robot Model](#Autonomous-Substation-Inspection-Robot-Model)
+- [Operant Conditioning System To Test Auditory Perception of Songbirds](#Operant-Conditioning-System-To-Test-Auditory-Perception-of-Songbirds)
+- [Smart Car Seat](#Smart-Car-Seat)
 - [Medical Alert Device](#Medical-Alert-Device)
 
 ## Personal Projects:
@@ -77,36 +77,6 @@ Automated system for behavioral research in biological experiments.
 ---
 
 # Project Overviews:
-
-## Operant Conditioning System to Test Auditory Perception of Songbirds
-
-### Overview:
-Research system designed to automate behavioral experiments in songbirds.
-
-### Key Contributions:
-- Capacitive sensing for improved accuracy over IR systems
-- Multi-unit system supporting 10 concurrent devices
-- Automated data collection and training modes
-
-<img src="Images/Operant Chamber/OC_poster_PNG.png" width="900">
-</br>
-<img src="Images/Operant Chamber/OC_video_GIF.gif" width="450">
-
----
-
-## Smart Car Seat
-
-### Overview:
-Embedded safety system for detecting dangerous in-vehicle conditions.
-
-### Key Contributions:
-- Multi-sensor safety monitoring
-- SMS + GPS alerting system
-- Improved reliability over prior designs
-
-<img src="Images/Smart Car Seat/smart_seat_block_diagram.jpg" width="400">
-
----
 
 ## VLM-Guided Robot Navigation
 
@@ -123,12 +93,45 @@ Embodied AI system combining perception, reasoning, and navigation.
 
 ---
 
+## Operant Conditioning System to Test Auditory Perception of Songbirds
+
+### Overview:
+Research system designed to automate behavioral experiments in songbirds.
+
+### Key Contributions:
+- Capacitive sensing for improved accuracy over IR systems
+- Multi-unit system supporting 10 concurrent devices
+- Automated data collection and training modes
+
+<img src="Images/Operant Chamber/OC_poster_PNG.png" width="900">
+</br>
+<img src="Images/Operant Chamber/OC_video_GIF.gif" width="450">
+
+
+---
+
 ## Autonomous Substation Inspection Robot Model
 
 ### Overview:
 Autonomous inspection robot for hazardous environments.
 
 <img src="Images/senior_design_project/senior_design_create3_GIF.gif" width="750">
+
+---
+
+## Smart Car Seat
+
+### Overview:
+Embedded safety system for detecting dangerous in-vehicle conditions.
+
+### Key Contributions:
+- Multi-sensor safety monitoring
+- SMS + GPS alerting system
+- Improved reliability over prior designs
+
+<img src="Images/Smart Car Seat/smart_seat_block_diagram.jpg" width="400">
+
+
 
 ---
 
