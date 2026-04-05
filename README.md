@@ -35,7 +35,8 @@ This repository highlights selected projects spanning embedded systems, robotics
 ---
 
 ### 🔹 Personal Monitoring System
-- Distributed multi-node wearable monitoring system (wrist, leg, display)
+ Distributed multi-node wearable monitoring system (wrist, leg, display)
+
 - Real-time motion data acquisition using embedded sensors
 - RF-based wireless communication between independent modules
 - Modular design enabling scalable and extensible sensor integration
