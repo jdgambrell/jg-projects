@@ -173,4 +173,6 @@ Interactive embedded system with sensor + RF-based automation.
 Automated watering system using sensor feedback.
 
 <img src="Images/automated_gardening_device/auto_waterer_pic_2.jpg" width="350"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/automated_gardening_device/auto_waterer_pic_1.jpg" width="350">
+
+
 <img src="Images/automated_gardening_device/auto_waterer_sensor_pic.jpg" width="350">
