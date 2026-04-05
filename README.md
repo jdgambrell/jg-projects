@@ -24,13 +24,13 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ---
 
-### 🔹 Embedded Systems — Consumer Product Prototype
- Design and development of a PCB-based embedded system for a patented consumer product.
+### 🔹 Operant Conditioning System
+ Automated system for behavioral research in biological experiments.
 
-- ESP32-based low-power embedded architecture
-- Designed under strict size, power, and communication constraints
-- Iterative prototyping focused on manufacturability and reliability
-- Delivered working prototype meeting client specifications
+- Designed embedded system for behavioral tracking and stimulus delivery
+- Scaled from single prototype to 10-unit deployable system
+- Improved consistency and automation of experimental data collection
+- Presented at university research symposium
 
 ---
 
@@ -44,13 +44,19 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ---
 
-### 🔹 Operant Conditioning System
- Automated system for behavioral research in biological experiments.
+### 🔹 Personal Monitoring System
+- Distributed multi-node wearable monitoring system (wrist, leg, display)
+- Real-time motion data acquisition using embedded sensors
+- RF-based wireless communication between independent modules
+- Modular design enabling scalable and extensible sensor integration
 
-- Designed embedded system for behavioral tracking and stimulus delivery
-- Scaled from single prototype to 10-unit deployable system
-- Improved consistency and automation of experimental data collection
-- Presented at university research symposium
+---
+
+### 🔹 Automated Halloween Candy Bowl
+- Interactive embedded system using sensor-triggered automation
+- Event-driven logic for responsive user interaction
+- RF-enabled communication for coordinated behaviors
+- Designed for customizable and expandable effects
 
 ---
 
