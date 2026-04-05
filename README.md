@@ -76,9 +76,8 @@ This repository highlights selected projects spanning embedded systems, robotics
 - [Medical Alert Device](#Medical-Alert-Device)
 
 ## Personal Projects:
-- [Consumer Product Prototype](#Consumer-Product-Prototype)
-- [Johnny 2 and Johnny 1 Custom Robotics Platforms](#Johnny-2-and-Johnny-1-Custom-Robotics-Platforms)
 - [Automated Halloween Candy Bowl](#Automated-Halloween-Candy-Bowl)
+- [Johnny 2 Custom Robotics Platform](#Johnny-2-and-Johnny-1-Custom-Robotics-Platforms)
 - [Smart Gardening System](#Smart-Gardening-System)
 
 ---
@@ -114,7 +113,6 @@ Research system designed to automate behavioral experiments in songbirds.
 </br>
 <img src="Images/Operant Chamber/OC_video_GIF.gif" width="450">
 
-
 ---
 
 ## Autonomous Substation Inspection Robot Model
@@ -138,8 +136,6 @@ Embedded safety system for detecting dangerous in-vehicle conditions.
 
 <img src="Images/Smart Car Seat/smart_seat_block_diagram.jpg" width="400">
 
-
-
 ---
 
 ## Medical Alert Device
@@ -148,13 +144,6 @@ Embedded safety system for detecting dangerous in-vehicle conditions.
 Wearable embedded system for monitoring vital signs.
 
 <img src="Images/medical_alert_device/medical_alert_GIF.gif" width="800">
-
----
-
-## Consumer Product Prototype
-
-### Overview:
-Embedded system prototype developed under real-world constraints.
 
 ---
 
