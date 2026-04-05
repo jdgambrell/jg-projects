@@ -1,0 +1,398 @@
+/**
+ *
+ * HX711 library for Arduino - example file
+ * https://github.com/bogde/HX711
+ *
+ * MIT License
+ * (c) 2018 Bogdan Necula
+ *
+**/
+#include "HX711.h"
+#include <RCSwitch.h>
+
+//RF transmitter object
+RCSwitch mySwitch = RCSwitch();
+
+// HX711 circuit wiring
+const int LOADCELL_DOUT_PIN = 19;
+const int LOADCELL_SCK_PIN = 23;
+const int WEIGHT_SET_BUTTON = 33;
+const int RF_TRANSMIT_PIN = 32;
+
+
+int one_candy = 7;
+int count = 0;                      //counter for waiting for __ seconds to elapse before accepting weight increase and zeroing it out
+int currentWeight = 0, prevWeight = 0, weightDifference = 0;
+long int prevWeightTime = 0;
+long int prevFlashTime = 0;
+bool weightSetFlag = false;
+bool positiveWeightFlag = false;
+
+
+HX711 scale;
+
+//*************************************************************
+//mp3 - related libraries, vaiables and functions
+#include "DFRobotDFPlayerMini.h"
+
+//MP3 Objects and function declaration
+DFRobotDFPlayerMini myDFPlayer1, myDFPlayer2, myDFPlayer3;
+void printDetail(uint8_t type, int value);
+
+long int prevTime = 0;
+
+//MP3-related Functions
+void dfplayerSetup()
+{
+  //need Serial2 port set to 9600 baud
+  Serial.println();
+  Serial.println(F("DFRobot DFPlayer Mini"));
+  Serial.println(F("Initializing DFPlayer ... (May take 3~5 seconds)"));
+  
+  if (!myDFPlayer1.begin(Serial2)) {  //Use softwareSerial to communicate with mp3.
+    Serial.println(F("Unable to begin:"));
+    Serial.println(F("1.Please recheck the connection!"));
+    Serial.println(F("2.Please insert the SD card!"));
+    while(true){
+      delay(0); // Code to compatible with ESP8266 watch dog.
+    }
+  }
+  Serial.println(F("DFPlayer Mini online."));
+
+  myDFPlayer1.volume(30);  //Set volume value (0~30).
+}
+
+void putItBack()
+{
+  //have mp3 player play audio for yelling to put candy back and electrocute noise and turn lights on and off
+  Serial.println ("Now playing Put It Back...");
+  tooManyDisplay();
+
+  //myDFPlayer1.playMp3Folder(4); //play specific mp3 in SD:/MP3/0004.mp3; File Name(0~65535)
+  myDFPlayer1.playFolder(4, 1);  //play specific mp3 in SD:/15/004.mp3; Folder Name(1~99); File Name(1~255)
+  delay(4000);
+  myDFPlayer1.playFolder(4, 2);  //play specific mp3 in SD:/15/004.mp3; Folder Name(1~99); File Name(1~255)
+  //myDFPlayer1.loopFolder(4);
+
+  prevFlashTime = millis();
+  while (millis()- prevFlashTime < 4500)
+  { 
+    mySwitch.send(785291926, 32);                 //turn lights on - 785291926
+    delay(500);
+    mySwitch.send(785294753, 32);                 //turn lights off - 785294753
+    delay(500);
+  }
+    
+}
+
+
+void printDetail(uint8_t type, int value){      //for MP3 player
+  switch (type) {
+    case TimeOut:
+      Serial.println(F("Time Out!"));
+      break;
+    case WrongStack:
+      Serial.println(F("Stack Wrong!"));
+      break;
+    case DFPlayerCardInserted:
+      Serial.println(F("Card Inserted!"));
+      break;
+    case DFPlayerCardRemoved:
+      Serial.println(F("Card Removed!"));
+      break;
+    case DFPlayerCardOnline:
+      Serial.println(F("Card Online!"));
+      break;
+    case DFPlayerUSBInserted:
+      Serial.println("USB Inserted!");
+      break;
+    case DFPlayerUSBRemoved:
+      Serial.println("USB Removed!");
+      break;
+    case DFPlayerPlayFinished:
+      Serial.print(F("Number:"));
+      Serial.print(value);
+      Serial.println(F(" Play Finished!"));
+      break;
+    case DFPlayerError:
+      Serial.print(F("DFPlayerError:"));
+      switch (value) {
+        case Busy:
+          Serial.println(F("Card not found"));
+          break;
+        case Sleeping:
+          Serial.println(F("Sleeping"));
+          break;
+        case SerialWrongStack:
+          Serial.println(F("Get Wrong Stack"));
+          break;
+        case CheckSumNotMatch:
+          Serial.println(F("Check Sum Not Match"));
+          break;
+        case FileIndexOut:
+          Serial.println(F("File Index Out of Bound"));
+          break;
+        case FileMismatch:
+          Serial.println(F("Cannot Find File"));
+          break;
+        case Advertise:
+          Serial.println(F("In Advertise"));
+          break;
+        default:
+          break;
+      }
+      break;
+    default:
+      break;
+  }  
+}
+
+//*************************************************************
+
+#include <Wire.h>   //libraries for OLED
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Adafruit_CAP1188.h>
+
+/////OLED Variables////////
+  #define SCREEN_WIDTH 128 // OLED display width, in pixels
+  #define SCREEN_HEIGHT 64 // OLED display height, in pixels
+
+// Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
+  #define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
+  #define SCREEN_ADDRESS 0x3D ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
+  Adafruit_SSD1306 display(OLED_RESET);
+
+
+//****************************************************************
+//     Display Functions     //
+
+void displayWeight()
+{
+  display.clearDisplay(); display.setTextSize (3);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.print(" "); display.println(scale.get_units(), 1);
+  display.setTextSize (0); display.print("       grams");
+  display.display();
+}
+
+void readyMessage()
+{
+  display.clearDisplay(); display.setTextSize (2);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.print("Ready!");
+  display.display();
+}
+
+void calibrateMessage()
+{
+  display.clearDisplay(); display.setTextSize (2);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.println("Tare in");  display.print("progress");
+  display.display();
+  delay(2000);
+}
+
+void weightAdjustedMessage()
+{
+  display.clearDisplay(); display.setTextSize (2);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.println("Weight");  display.print("adjusted");
+  display.display();
+  delay(2000);
+}
+
+void weightSetMessage()
+{
+  display.clearDisplay(); display.setTextSize (2);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.println("Weight set");  display.print("at "); display.print(prevWeight); display.print("g");
+  display.display();
+  //delay(2000);
+}
+
+void tooManyDisplay()
+{
+  display.clearDisplay(); display.setTextSize (2);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.println("   TOO   ");  display.print(" MANY!!!");
+  display.display();
+  //delay(2000);
+}
+
+void oneCandyInput()
+{
+  display.clearDisplay(); display.setTextSize (2);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.print("Place one "); display.print("candy");
+  display.display();
+}
+
+void oneCandyDisplay()
+{
+  display.clearDisplay(); display.setTextSize (2);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.println("1.25X Wt.");  display.print("set at "); display.print(one_candy); display.print("g");
+  display.display();
+  delay(3000);
+
+  display.clearDisplay(); display.setTextSize (2);
+  display.setCursor(0, 0); display.setTextColor (WHITE);
+  display.println("Now fill");  display.print("the bowl!");
+  display.display();
+
+  while(digitalRead(WEIGHT_SET_BUTTON) == HIGH){}
+  scale.tare();                // reset the scale to 0
+  delay(2000);
+  readyMessage();             //print "Ready" to the screen
+}
+
+
+//****************************************************************
+void checkWeight()          //check for weight change from the 0 point (delta)
+{
+  currentWeight = scale.get_units();
+  Serial.print ("New current weight is: "); Serial.println (currentWeight);
+
+  if (currentWeight < -(one_candy))         //if the weight of one candy (really 1.25) is removed, then run the inside
+  {
+    putItBack();
+    scale.tare();                // reset the scale to 0
+    positiveWeightFlag = false;
+    readyMessage();             //print "Ready" to the screen
+    //delay(3000);
+    return;
+  }
+
+  else if (currentWeight <= 0)         //if the weight is different than it previously was, then
+  {
+    scale.tare();                // reset the scale to 0
+    Serial.println ("Reset at 0");
+    positiveWeightFlag = false;
+    readyMessage();             //print "Ready" to the screen
+    //delay(3000);          //for debouncing
+    return;
+  }
+
+  prevWeightTime = millis();
+  while (scale.get_units() > 2)
+  {
+    if (millis() - prevWeightTime > 3500)
+    {
+      scale.tare();                // reset the scale to 0
+      weightAdjustedMessage();
+      readyMessage();             //print "Ready" to the screen
+      return;
+    }
+    else {delay (2000);}               //to prevent "rooting", and debounce scale  //the debouncing ended up interfering with timing
+  }
+  
+}
+
+void setWeight()              //set current weight manually
+{
+  if (digitalRead(WEIGHT_SET_BUTTON) == LOW)
+  {
+    weightSetFlag = true;                 //I don't remember what I was using this for (nothing right now)
+    prevWeight = scale.get_units();
+    Serial.print ("Setting weight to ");Serial.print (prevWeight);Serial.print (" grams");
+    weightSetMessage();
+  } 
+}
+
+void setOneCandy()
+{
+  oneCandyInput();      //asks to place one candy on scale
+  while(digitalRead(WEIGHT_SET_BUTTON) == HIGH){}
+  delay(2000);   //for debouncing
+  one_candy = scale.get_units()+(0.25*scale.get_units());
+  oneCandyDisplay();
+}
+
+//****************************************************************
+void setup() {
+  Serial.begin(115200);
+  Serial2.begin(9600);    //for use by mp3
+
+  dfplayerSetup();
+
+  pinMode(WEIGHT_SET_BUTTON, INPUT_PULLUP);
+  
+  pinMode(RF_TRANSMIT_PIN, INPUT);
+  mySwitch.enableTransmit(RF_TRANSMIT_PIN);            //transmit using the pin # in parentheses
+
+  display.begin(0x3C);
+  delay (2000);   //so OLED has enough time to initialize before writing text
+
+  Serial.println("Initializing the scale");
+
+  // Initialize library with data output pin, clock input pin and gain factor.
+  // Channel selection is made by passing the appropriate gain:
+  // - With a gain factor of 64 or 128, channel A is selected
+  // - With a gain factor of 32, channel B is selected
+  // By omitting the gain factor parameter, the library
+  // default "128" (Channel A) is used here.
+  scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
+
+  Serial.println("Before setting up the scale:");
+  Serial.print("read: \t\t");
+  Serial.println(scale.read());			// print a raw reading from the ADC
+
+  Serial.print("read average: \t\t");
+  Serial.println(scale.read_average(20));  	// print the average of 20 readings from the ADC
+
+  Serial.print("get value: \t\t");
+  Serial.println(scale.get_value(5));		// print the average of 5 readings from the ADC minus the tare weight (not set yet)
+
+  Serial.print("get units: \t\t");
+  Serial.println(scale.get_units(5), 1);	// print the average of 5 readings from the ADC minus tare weight (not set) divided
+						// by the SCALE parameter (not set yet)
+
+  scale.set_scale(-463.f);                      // this value is obtained by calibrating the scale with known weights; see the README for details
+  
+  calibrateMessage();
+  scale.tare();				        // reset the scale to 0
+
+  Serial.println("After setting up the scale:");
+
+  Serial.print("read: \t\t");
+  Serial.println(scale.read());                 // print a raw reading from the ADC
+
+  Serial.print("read average: \t\t");
+  Serial.println(scale.read_average(20));       // print the average of 20 readings from the ADC
+
+  Serial.print("get value: \t\t");
+  Serial.println(scale.get_value(5));		// print the average of 5 readings from the ADC minus the tare weight, set with tare()
+
+  Serial.print("get units: \t\t");
+  Serial.println(scale.get_units(5), 1);        // print the average of 5 readings from the ADC minus tare weight, divided
+						// by the SCALE parameter set with set_scale
+
+  Serial.println("Readings:");
+
+
+  setOneCandy();              //set weight for one piece of candy.  Alarm if 1.5 weight is removed.
+}
+
+void loop() {
+  //for testing
+  if (millis() - prevTime > 8000)
+  {
+    
+  }
+  
+  //displayWeight();                            //display weight to oled screen
+  
+  
+  //setWeight();
+  checkWeight();
+  
+  Serial.print("one reading:\t");
+  Serial.print(scale.get_units(), 1);
+  Serial.print("\t| average:\t");
+  Serial.println(scale.get_units(10), 1);
+
+  scale.power_down();			        // put the ADC in sleep mode    //do this process to get a fresh reading
+  delay(2000);                  //does not work properly with a 1 second delay here (or 1.5s - larger variance around 2 g, needs more (2 seconds default))
+  scale.power_up();
+}
