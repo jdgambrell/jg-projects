@@ -34,6 +34,14 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ---
 
+### 🔹 Personal Monitoring System
+- Distributed multi-node wearable monitoring system (wrist, leg, display)
+- Real-time motion data acquisition using embedded sensors
+- RF-based wireless communication between independent modules
+- Modular design enabling scalable and extensible sensor integration
+
+---
+
 ### 🔹 JOY Smart Car Seat
  Multi-sensor safety system designed to prevent child endangerment scenarios.
 
@@ -41,14 +49,6 @@ This repository highlights selected projects spanning embedded systems, robotics
 - Implemented GSM-based communication (SIM7000G) for real-time SMS alerts with GPS location
 - Local alerting via buzzer and LED
 - End-to-end embedded system design and validation
-
----
-
-### 🔹 Personal Monitoring System
-- Distributed multi-node wearable monitoring system (wrist, leg, display)
-- Real-time motion data acquisition using embedded sensors
-- RF-based wireless communication between independent modules
-- Modular design enabling scalable and extensible sensor integration
 
 ---
 
