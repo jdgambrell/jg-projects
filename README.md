@@ -15,7 +15,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 ## ⭐ Featured Projects
 
 ### 🔹 VLM-Guided Robot Navigation (Embodied AI Research)
- Development of an embodied AI system enabling robots to interpret and interact with real-world environments using vision-language models.
+   Development of an embodied AI system enabling robots to interpret and interact with real-world environments using vision-language models.
 
 - Integrated VLM/LLM reasoning, CLIP-based object localization, and ROS2/Nav2 navigation
 - Designed for interaction-aware navigation in environments where traditional planners fail
