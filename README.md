@@ -147,7 +147,7 @@ Wearable embedded system for monitoring vital signs.
 
 ---
 
-## Johnny Robotics Platforms
+## Johnny2 Robotics Platform
 
 ### Overview:
 Custom robotics platforms for ROS-based experimentation.
