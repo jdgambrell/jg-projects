@@ -15,7 +15,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 ## ⭐ Featured Projects
 
 ### 🔹 VLM-Guided Robot Navigation (Embodied AI Research)
-&nbsp;  Development of an embodied AI system enabling robots to interpret and interact with real-world environments using VLMs.
+&nbsp;  Development of an embodied AI system enabling robots to interpret and interact with real-world environments using VLMs
 
 - Integrated VLM/LLM reasoning, CLIP-based object localization, and ROS2/Nav2 navigation
 - Designed for interaction-aware navigation in environments where traditional planners fail
@@ -25,7 +25,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 ---
 
 ### 🔹 Operant Conditioning System
-&nbsp;  Automated system for behavioral research in biological experiments.
+&nbsp;  Automated system for behavioral research in biological experiments
 
 - Designed embedded system for behavioral tracking and stimulus delivery
 - Scaled from single prototype to 10-unit deployable system
@@ -44,7 +44,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 ---
 
 ### 🔹 JOY Smart Car Seat
-&nbsp;  Multi-sensor safety system designed to prevent child endangerment scenarios.
+&nbsp;  Multi-sensor safety system designed to prevent child endangerment scenarios
 
 - Integrated temperature, gas, moisture, and occupancy sensing
 - Implemented GSM-based communication (SIM7000G) for real-time SMS alerts with GPS location
