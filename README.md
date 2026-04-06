@@ -164,9 +164,7 @@ Custom robotics platforms for ROS-based experimentation.
 ### Overview:
 Interactive embedded system with sensor + RF-based automation.
 
-<video src="Images/Automated_Candy_Bowl/automated_candy_bowl_cut.mp4" width="500" controls>
-  Your browser does not support the video tag.
-</video>
+![Watch the video](Images/Automated_Candy_Bowl/automated_candy_bowl_cut.mp4)
 
 ---
 
