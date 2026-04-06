@@ -105,6 +105,12 @@ Embodied AI system integrating perception, reasoning, and navigation to enable r
 
 *Example of robot navigation behavior integrating perception and decision-making*
 
+### Implementation Notes
+Core functionality is implemented using Python-based ROS2 nodes for perception, reasoning, and navigation integration.
+
+### Code
+- [View Source Code](vlm_navigation/)
+
 ---
 
 ## Operant Conditioning System to Test Auditory Perception of Songbirds
@@ -185,6 +191,9 @@ Wearable embedded system designed to monitor user safety through motion and envi
 
 *System architecture showing sensor, communication, and alert pipeline*
 
+### Code
+- [View Source Code](medical_alert_device/)
+
 ---
 
 ## Johnny2 Robotics Platform
@@ -215,6 +224,9 @@ Interactive embedded system with sensor + RF-based automation.
 (Play video with volume enabled)
 
 https://github.com/user-attachments/assets/c595e01b-11e1-43f8-8dea-17a615d7857c
+
+### Code
+- [View Source Code](automated_candy_bowl/)
 
 ---
 
