@@ -144,9 +144,9 @@ Wearable embedded system for monitoring vital signs.
 
 <img src="Images/medical_alert_device/medical_alert_cut.gif" width="700">
 
-<img src="Images/medical_alert_device/medical_alert_wrist.jpg" width="400"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/medical_alert_device/medical_alert_leg.jpg" width="400">
+<img src="Images/medical_alert_device/medical_alert_wrist.jpg" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/medical_alert_device/medical_alert_leg.jpg" width="300">
 
-<img src="Images/medical_alert_device/medical_alert_system_diagram.png" width="400">
+<img src="Images/medical_alert_device/medical_alert_system_diagram.png" width="500">
 
 ---
 
@@ -164,7 +164,7 @@ Custom robotics platforms for ROS-based experimentation.
 ### Overview:
 Interactive embedded system with sensor + RF-based automation.
 
-<img src="Images/Automated_Candy_Bowl/candy_bowl_cut.mov" width="500">
+<img src="Images/Automated_Candy_Bowl/automated_candy_bowl_cut.mov" width="500">
 
 ---
 
