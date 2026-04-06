@@ -94,8 +94,7 @@ Embodied AI system combining perception, reasoning, and navigation.
 - Real + simulated deployment (Isaac Sim)
 - Interaction-aware navigation
 
-<img src="Images/masters_thesis/Combined_pic.jpg" width="900">
-<img src="Images/masters_thesis/double_dingo_image.jpg" width="600">
+<img src="Images/vlm_navigation/vlm_nav_cut.gif" width="900">
 
 ---
 
