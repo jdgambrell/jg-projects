@@ -109,7 +109,7 @@ Embodied AI system integrating perception, reasoning, and navigation to enable r
 Core functionality is implemented using Python-based ROS2 nodes for perception, reasoning, and navigation integration.
 
 ### Code
-- [View Source Code](vlm_navigation/)
+- [View Source Code](vlm_robot_navigation/)
 
 ---
 
