@@ -71,7 +71,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 # List of Projects:
 
 ## University-Related:
-- [VLM-Guided Robot Navigation](#Masters-Thesis-Unblocking-Robot-Navigation-in-3D-Indoor-Spaces-with-Vision-Language-Models)
+- [VLM-Guided Robot Navigation](#VLM-Guided-Robot-Navigation)
 - [Autonomous Substation Inspection Robot Model](#Autonomous-Substation-Inspection-Robot-Model)
 - [Operant Conditioning System To Test Auditory Perception of Songbirds](#Operant-Conditioning-System-To-Test-Auditory-Perception-of-Songbirds)
 - [Smart Car Seat](#Smart-Car-Seat)
@@ -79,7 +79,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ## Personal Projects:
 - [Automated Halloween Candy Bowl](#Automated-Halloween-Candy-Bowl)
-- [Johnny 2 Custom Robotics Platform](#Johnny-2-and-Johnny-1-Custom-Robotics-Platforms)
+- [Johnny 2 Custom Robotics Platform](#Johnny_2-Custom-Robotics-Platform)
 - [Smart Gardening System](#Smart-Gardening-System)
 
 ---
