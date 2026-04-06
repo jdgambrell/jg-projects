@@ -8,7 +8,9 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ## 🔗 Links
 - LinkedIn: https://www.linkedin.com/in/jerry-gambrell/
-- Resume: [ADD PDF LINK HERE]
+- Resume: [Embedded Systems/Hardware](resumes/Jerry_Gambrell_resume_embedded_hardware_v2.docx)
+          [Robotics/AI](resumes/Jerry_Gambrell_resume_robotics_ai_v2.docx)
+
 
 ---
 
@@ -134,6 +136,8 @@ Embedded safety system for detecting dangerous in-vehicle conditions.
 - Improved reliability over prior designs
 
 <img src="Images/Smart Car Seat/smart_seat_block_diagram.jpg" width="350">
+
+<img src="Images/Smart Car Seat/smart_car_seat.png" width="350">
 
 ---
 
