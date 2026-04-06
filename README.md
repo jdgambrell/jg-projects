@@ -79,7 +79,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ## Personal Projects:
 - [Automated Halloween Candy Bowl](#Automated-Halloween-Candy-Bowl)
-- [Johnny 2 Custom Robotics Platform](#Johnny-2-Custom-Robotics-Platform)
+- [Johnny 2 Custom Robotics Platform](#Johnny2-Custom-Robotics-Platform)
 - [Smart Gardening System](#Smart-Gardening-System)
 
 ---
