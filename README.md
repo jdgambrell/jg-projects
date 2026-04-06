@@ -8,8 +8,8 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ## 🔗 Links
 - LinkedIn: https://www.linkedin.com/in/jerry-gambrell/
-- Resumes: [Embedded Systems/Hardware](resumes/Jerry_Gambrell_resume_embedded_hardware_v2.pdf) &nbsp; &nbsp;
-          [Robotics/AI](resumes/Jerry_Gambrell_resume_robotics_ai_v2.pdf)
+- Resume — Embedded Systems / Hardware: [Download](resumes/Jerry_Gambrell_resume_embedded_hardware_v2.pdf)  
+- Resume — Robotics / AI: [Download](resumes/Jerry_Gambrell_resume_robotics_ai_v2.pdf)
 
 
 ---
@@ -89,15 +89,21 @@ This repository highlights selected projects spanning embedded systems, robotics
 ## VLM-Guided Robot Navigation
 
 ### Overview:
-Embodied AI system combining perception, reasoning, and navigation.
+Embodied AI system integrating perception, reasoning, and navigation to enable robots to operate in complex real-world environments. This work explores how vision-language models (VLMs) can support interaction-aware navigation when traditional planners fail.
 
 ### Key Contributions:
-- ROS2/Nav2 + VLM/LLM integration
-- Real + simulated deployment (Isaac Sim)
-- Interaction-aware navigation
+- Integrated VLM/LLM reasoning, CLIP-based object localization, and ROS2/Nav2 navigation pipelines
+- Designed system architecture for combining perception outputs with actionable navigation decisions
+- Deployed and evaluated on real robotic platforms and in simulation (Isaac Sim)
+- Research contributing to a paper accepted to CVPR 2026 (extended work submitted to IROS)
+
+### Outcome:
+- Demonstrated successful navigation in scenarios requiring environment interpretation and interaction
+- Validated approach across simulation and real-world testing
 
 <img src="Images/vlm_navigation/vlm_nav_cut.gif" width="300">
 
+*Example of robot navigation behavior integrating perception and decision-making*
 ---
 
 ## Operant Conditioning System to Test Auditory Perception of Songbirds
@@ -119,10 +125,20 @@ Research system designed to automate behavioral experiments in songbirds.
 ## Autonomous Substation Inspection Robot Model
 
 ### Overview:
-Autonomous inspection robot for hazardous environments.
+Autonomous robotic system designed for inspection of hazardous industrial environments, with a focus on mapping, navigation, and remote operation capabilities.
+
+### Key Contributions:
+- Implemented mapping and localization workflows using ROS2-based navigation
+- Integrated sensor data for environmental awareness and obstacle avoidance
+- Developed both simulated and physical system workflows for testing and validation
+
+### Outcome:
+- Demonstrated autonomous navigation capabilities in structured environments
+- Established foundation for inspection tasks in hazardous or inaccessible locations
 
 <img src="Images/senior_design_project/senior_design_create3_GIF.gif" width="750">
 
+*Simulation and real-world navigation pipeline for inspection tasks*
 ---
 
 ## Smart Car Seat
@@ -144,22 +160,48 @@ Embedded safety system for detecting dangerous in-vehicle conditions.
 ## Medical Alert Device
 
 ### Overview:
-Wearable embedded system for monitoring vital signs.
+Wearable embedded system designed to monitor user safety through motion and environmental sensing, with real-time alerting capabilities.
+
+### Key Contributions:
+- Developed multi-node system including wearable sensor units and central monitoring interface
+- Integrated motion sensing and environmental monitoring for anomaly detection
+- Implemented wireless communication between modules for real-time data transmission
+
+### Outcome:
+- Created functional prototype demonstrating real-time monitoring and alert capabilities
+- Established scalable architecture for distributed wearable systems
 
 <img src="Images/medical_alert_device/med_alert_cut.gif" width="700">
 
+*System demonstrating real-time monitoring and alert behavior*
+
 <img src="Images/medical_alert_device/medical_alert_wrist.jpg" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/medical_alert_device/medical_alert_leg.jpg" width="300">
 
+*Wearable sensor modules for distributed monitoring*
+
 <img src="Images/medical_alert_device/medical_alert_system_diagram.png" width="600">
+
+*System architecture showing sensor, communication, and alert pipeline*
 
 ---
 
 ## Johnny2 Robotics Platform
 
 ### Overview:
-Custom robotics platforms for ROS-based experimentation.
+Custom-built robotics platform designed for experimentation with ROS-based control, sensing, and system integration.
+
+### Key Contributions:
+- Designed and assembled a modular robotics platform for testing navigation and control systems
+- Integrated onboard compute, sensors, and motor control systems
+- Used platform for experimentation with ROS-based workflows and perception pipelines
+
+### Outcome:
+- Created flexible test platform for robotics experimentation and system integration
+- Enabled rapid prototyping and validation of navigation and sensing approaches
 
 <img src="Images/Johnnies/johnny_2_GIF.gif" width="500">
+
+*Custom robotics platform used for system integration and experimentation*
 
 ---
 
@@ -168,7 +210,7 @@ Custom robotics platforms for ROS-based experimentation.
 ### Overview:
 Interactive embedded system with sensor + RF-based automation.
 
-(Play vdeo with volume enabled)
+(Play video with volume enabled)
 
 https://github.com/user-attachments/assets/c595e01b-11e1-43f8-8dea-17a615d7857c
 
