@@ -104,6 +104,7 @@ Embodied AI system integrating perception, reasoning, and navigation to enable r
 <img src="Images/vlm_navigation/vlm_nav_cut.gif" width="300">
 
 *Example of robot navigation behavior integrating perception and decision-making*
+
 ---
 
 ## Operant Conditioning System to Test Auditory Perception of Songbirds
@@ -139,6 +140,7 @@ Autonomous robotic system designed for inspection of hazardous industrial enviro
 <img src="Images/senior_design_project/senior_design_create3_GIF.gif" width="750">
 
 *Simulation and real-world navigation pipeline for inspection tasks*
+
 ---
 
 ## Smart Car Seat
