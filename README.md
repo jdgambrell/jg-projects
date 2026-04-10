@@ -101,15 +101,15 @@ Embodied AI system integrating perception, reasoning, and navigation to enable r
 - Demonstrated successful navigation in scenarios requiring environment interpretation and interaction
 - Validated approach across simulation and real-world testing
 
-<img src="Images/vlm_navigation/vlm_nav_cut.gif" width="300">
+<img src="Images/vlm_navigation/vlm_nav_cut.gif" width="350">
 
 *Example of robot navigation behavior integrating perception and decision-making*
 
-<img src="Images/automated_gardening_device/auto_waterer_pic_2.jpg" width="350">
+<img src="Images/vlm_navigation/floor1.png" width="400">
 
 *First floor of simulated office in environment in Issac Sim (including elevator)*
 
-<img src="Images/automated_gardening_device/auto_waterer_pic_2.jpg" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/automated_gardening_device/auto_waterer_pic_1.jpg" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/automated_gardening_device/auto_waterer_pic_1.jpg" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/automated_gardening_device/auto_waterer_pic_1.jpg" width="300">
+<img src="Images/vlm_navigation/robot_pressing_elevator_button.png" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/vlm_navigation/robot_pressing_second_floor_button.png" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/vlm_navigation/robot_exiting_elevator_second_floor.png" width="300">
 
 *Sequence of images of robot floor transition using custom elevator controls in Isaac Sim* 
 
