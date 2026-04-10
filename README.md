@@ -105,11 +105,13 @@ Embodied AI system integrating perception, reasoning, and navigation to enable r
 
 *Example of robot navigation behavior integrating perception and decision-making*
 
+<br>
 
-<img src="Images/vlm_navigation/floor_1.png" width="450">
+<img src="Images/vlm_navigation/floor_1.png" width="550">
 
 *First floor of simulated office in environment in Issac Sim (including elevator)*
 
+<br>
 
 <img src="Images/vlm_navigation/robot_pressing_elevator_button.png" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/vlm_navigation/robot_pressing_second_floor_button.png" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/vlm_navigation/robot_exiting_elevator_second_floor.png" width="300">
 
