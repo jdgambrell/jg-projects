@@ -105,6 +105,17 @@ Embodied AI system integrating perception, reasoning, and navigation to enable r
 
 *Example of robot navigation behavior integrating perception and decision-making*
 
+<img src="Images/automated_gardening_device/auto_waterer_pic_2.jpg" width="350">
+
+*First floor of simulated office in environment in Issac Sim (including elevator)*
+
+<img src="Images/automated_gardening_device/auto_waterer_pic_2.jpg" width="300">
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/automated_gardening_device/auto_waterer_pic_1.jpg" width="300">
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/automated_gardening_device/auto_waterer_pic_1.jpg" width="300">
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="Images/automated_gardening_device/auto_waterer_pic_1.jpg" width="300">
+
+*Sequence of images of robot floor transition using custom elevator controls in Isaac Sim* 
+
 ### Implementation Notes
 Core functionality is implemented using Python-based ROS2 nodes for perception, reasoning, and navigation integration.
 
