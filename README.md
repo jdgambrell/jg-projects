@@ -109,7 +109,7 @@ Embodied AI system integrating perception, reasoning, and navigation to enable r
 
 <img src="Images/vlm_navigation/floor_1.png" width="550">
 
-*First floor of simulated office in environment in Issac Sim (including elevator)*
+*First floor of simulated office environment in Issac Sim (including elevator)*
 
 <br>
 
