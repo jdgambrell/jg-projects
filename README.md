@@ -26,6 +26,17 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ---
 
+### 🔹 Digital Twin for Human-Aware TurtleBot3 Navigation
+&nbsp;  Digital twin robotics project demonstrating LiDAR-only human-aware navigation using TurtleBot3, ROS2, and Isaac Sim.
+
+* Built an Isaac Sim digital twin with TurtleBot3 and a simulated approaching human
+* Reused the same ROS2 Python nodes in simulation and on the physical TurtleBot3
+* Implemented LiDAR-only person detection, proximity zone classification, and velocity control
+* Demonstrated SAFE → CAUTION → YIELD behavior: move, slow, then stop
+* Compared simulation and physical robot results, showing strong controller transfer with real-world LiDAR noise differences
+
+---
+
 ### 🔹 Operant Conditioning System
 &nbsp;  Automated system for behavioral research in biological experiments
 
