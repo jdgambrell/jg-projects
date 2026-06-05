@@ -136,6 +136,47 @@ Core functionality is implemented using Python-based ROS2 nodes for perception, 
 
 ---
 
+## Digital Twin for Human-Aware Navigation with TurtleBot3
+
+### Overview
+
+This project developed a digital twin-based robotics workflow for human-aware navigation using a TurtleBot3 Burger robot. The goal was to determine whether a robot could respond safely to an approaching human using only a 2D LiDAR sensor, without cameras, depth sensors, SLAM, Nav2, or AI-based perception.
+
+The system was first built and tested in Isaac Sim, then transferred to the physical TurtleBot3 using the same ROS2 nodes. The robot classified the detected human’s distance into three behavior zones: SAFE, CAUTION, and YIELD.
+
+### Key Contributions
+
+* Built a behavioral digital twin in Isaac Sim using TurtleBot3 and a simulated approaching human
+* Developed custom ROS2 Python nodes for LiDAR processing, person detection, zone classification, and velocity control
+* Converted LiDAR scan data into 2D points, clustered nearby returns, and estimated distance from the robot
+* Implemented proximity-based robot behavior:
+
+  * SAFE: move forward at normal speed
+  * CAUTION: slow down
+  * YIELD: stop
+* Deployed the same software pipeline on both simulation and physical TurtleBot3 hardware
+* Compared simulation and real-world behavior across distance transitions and velocity response
+
+### Results
+
+The digital twin predicted the overall physical robot behavior well. In simulation, the robot entered CAUTION at approximately 2.8 meters, while the physical robot entered CAUTION closer to 2.3–2.6 meters. The YIELD transition was more consistent across both systems, occurring around 1.2–1.5 meters.
+
+Velocity control transferred cleanly between simulation and hardware:
+
+* SAFE: approximately 0.14 m/s
+* CAUTION: approximately 0.06 m/s
+* YIELD: 0 m/s
+
+### Outcome
+
+The project demonstrated that a simple LiDAR-only system can support basic human-aware robot behavior. The main difference between simulation and hardware came from perception noise: simulated LiDAR was clean and stable, while physical LiDAR introduced jitter and false motion. The controller logic transferred well, but real-world perception required more conservative filtering.
+
+### Tools & Technologies
+
+ROS2, Python, TurtleBot3 Burger, 2D LiDAR, OpenCR, Raspberry Pi 3, RViz, Isaac Sim
+
+---
+
 ## Operant Conditioning System to Test Auditory Perception of Songbirds
 
 ### Overview:
