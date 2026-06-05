@@ -83,7 +83,7 @@ This repository highlights selected projects spanning embedded systems, robotics
 
 ## University-Related:
 - [VLM-Guided Robot Navigation](#VLM-Guided-Robot-Navigation)
-- [Digital Twin for Human-Aware TurtleBot3 Navigation](#Digital-Twin-for-Human--Aware-Navigation-with-TurtleBot3)
+- [Digital Twin for Human-Aware TurtleBot3 Navigation](#Digital-Twin-for-Human-Aware-Navigation-with-TurtleBot3)
 - [Autonomous Substation Inspection Robot Model](#Autonomous-Substation-Inspection-Robot-Model)
 - [Operant Conditioning System To Test Auditory Perception of Songbirds](#Operant-Conditioning-System-To-Test-Auditory-Perception-of-Songbirds)
 - [Smart Car Seat](#Smart-Car-Seat)
