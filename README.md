@@ -178,9 +178,14 @@ ROS2, Python, TurtleBot3 Burger, 2D LiDAR, OpenCR, Raspberry Pi 3, RViz, Isaac S
 
 <img src="Images/digital_twin_turtlebot3/TB3_sim_mp4_to_gif.gif" width="750">
 *The digital twin allows testing and tuning of human-aware navigation behavior before deployment to the physical TurtleBot3 platform*
+
 </br>
+</br>
+
 <img src="Images/digital_twin_turtlebot3/TB3_physical_robot_demo_mp4_to_gif.gif" width="750">
 *Using the same ROS2 nodes developed in simulation, the robot detects an approaching person and adjusts its velocity according to predefined safety zones*
+
+</br>
 </br>
 <img src="Images/digital_twin_turtlebot3/TB3_project_flowchart_image.png" width="900">
 *The pipeline converts LiDAR scans into candidate human detections, classifies proximity zones, and commands robot motion through SAFE, CAUTION, and YIELD states*
