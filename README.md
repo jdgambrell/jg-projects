@@ -176,6 +176,12 @@ The project demonstrated that a simple LiDAR-only system can support basic human
 
 ROS2, Python, TurtleBot3 Burger, 2D LiDAR, OpenCR, Raspberry Pi 3, RViz, Isaac Sim
 
+<img src="Images/Operant Chamber/OC_video_GIF.gif" width="450">
+</br>
+<img src="Images/Operant Chamber/OC_video_GIF.gif" width="450">
+</br>
+<img src="Images/Operant Chamber/OC_poster_PNG.png" width="900">
+
 ---
 
 ## Operant Conditioning System to Test Auditory Perception of Songbirds
