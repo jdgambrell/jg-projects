@@ -176,6 +176,9 @@ The project demonstrated that a simple LiDAR-only system can support basic human
 
 ROS2, Python, TurtleBot3 Burger, 2D LiDAR, OpenCR, Raspberry Pi 3, RViz, Isaac Sim
 
+</br>
+</br>
+
 <img src="Images/digital_twin_turtlebot3/TB3_sim_mp4_to_gif.gif" width="750">
 *The digital twin allows testing and tuning of human-aware navigation behavior before deployment to the physical TurtleBot3 platform*
 
