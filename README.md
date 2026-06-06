@@ -178,7 +178,7 @@ ROS2, Python, TurtleBot3 Burger, 2D LiDAR, OpenCR, Raspberry Pi 3, RViz, Isaac S
 
 <img src="Images/Operant Chamber/OC_video_GIF.gif" width="450">
 </br>
-<img src="Images/Operant Chamber/OC_video_GIF.gif" width="450">
+<img src="Images/digital_twin_turtlebot3/TB3_physical_robot_demo_mp4_to_gif.gif" width="450">
 </br>
 <img src="Images/Operant Chamber/OC_poster_PNG.png" width="900">
 
